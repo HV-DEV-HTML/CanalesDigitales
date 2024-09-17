@@ -1960,7 +1960,7 @@ document.addEventListener("click", function (e) {
                 // Ejemplo (suponiendo que tienes un contenedor para estos datos en el popup):
                 document.querySelector('section.popupInfo .canalNombre').textContent = canalEncontrado.nombre;
                 document.querySelector('section.popupInfo .tipoServicio').textContent = servicioEncontrado.nombre;
-                document.querySelector('section.popupInfo .canalImagen').src = "assets/icon-latina.png";
+                document.querySelector('section.popupInfo .canalImagen').src = canalEncontrado.imagen;
                 /*document.querySelector('section.popupInfo .canalImagen').src = canalEncontrado.imagen || 'ruta/imagen/por_defecto.jpg';*/
 
                 // Limpiar el contenido anterior de la tabla
@@ -1980,35 +1980,27 @@ document.addEventListener("click", function (e) {
                     </table>
                 `;
 
-                // Insertar la tabla base en .contentTabla
                 contentTabla.innerHTML = tablaHTML;
 
-                // Seleccionar el tbody donde vamos a insertar los tr dinámicos
                 var tbody = contentTabla.querySelector('tbody');
 
-                // Recorrer las categorías y generar filas dinámicas
                 servicioEncontrado.categoria.forEach(function (categoria) {
-                    // Crear una fila para el tipo de canal (SD o HD)
                     var filaTipoCanal = document.createElement('tr');
                     filaTipoCanal.classList.add('tipoCanales');
 
-                    // Primer td (subcategoria) con el tipo de canal (SD o HD)
                     var tdSubcategoria = document.createElement('td');
                     tdSubcategoria.classList.add('subcategoria');
                     tdSubcategoria.textContent = categoria.tipo;  // SD o HD
                     filaTipoCanal.appendChild(tdSubcategoria);
 
-                    // Crear la celda para TV Avanzado con el número de canal correspondiente
                     var tdAvanzado = document.createElement('td');
-                    tdAvanzado.textContent = servicioEncontrado.canalAvanzado;  // Canal Avanzado
+                    tdAvanzado.textContent = servicioEncontrado.canalAvanzado;
                     filaTipoCanal.appendChild(tdAvanzado);
 
-                    // Crear la celda para TV Superior con el número de canal correspondiente
                     var tdSuperior = document.createElement('td');
-                    tdSuperior.textContent = servicioEncontrado.canalSuperior;  // Canal Superior
+                    tdSuperior.textContent = servicioEncontrado.canalSuperior;
                     filaTipoCanal.appendChild(tdSuperior);
 
-                    // Añadir la fila al tbody
                     tbody.appendChild(filaTipoCanal);
                 });
 
