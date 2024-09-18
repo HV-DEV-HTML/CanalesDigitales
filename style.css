@@ -260,7 +260,7 @@ section.zona1 .anuncio p {
   font-weight: 400;
   line-height: 100%;
   display: none;
-  padding-top: 3px;
+  padding-top: 1.8px;
   padding-bottom: 0 !important;
 }
 section.zona1 .anuncio p b {
@@ -1028,7 +1028,6 @@ section.popupInfo .content table tr td.subcategoria {
   }
   section.zona1 .filtros .item.filtro .anuncio p {
     font-size: 16px;
-    text-align: center;
   }
   .cards .itemCanal {
     -webkit-box-orient: vertical;
