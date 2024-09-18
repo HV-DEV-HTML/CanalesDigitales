@@ -165,6 +165,8 @@ section.zona1 {
         border: 1px solid #91979e;
         appearance: none;
         padding-right: 33px;
+        background-color: #fff;
+        background: #fff;
         &:focus {
           border: 1px solid #91979e;
           outline: none;
@@ -265,6 +267,8 @@ section.zona1 {
       font-weight: 400;
       line-height: 100%;
       display: none;
+      padding-top: 3px;
+      padding-bottom: 0 !important;
       b {
         font-family: AMX;
       }
@@ -420,6 +424,8 @@ section.zona1 {
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
+        padding-left: 1px;
+        padding-top: 0.5px;
       }
       .numeros {
         display: flex;
@@ -488,19 +494,33 @@ section.paquetesPrepium {
     height: 0;
     overflow: hidden;
     .contentSlider {
+      max-width: 1340px;
+      margin: 0 auto;
       margin-top: 40px;
+      .slick-track {
+        display: flex;
+      }
       .slick-slide {
         margin: 0 10px;
+        height: auto;
+        div {
+          height: 100%;
+        }
       }
       .item {
         border-radius: 10px;
         border: 1px solid #da291c;
         padding: 12px;
         cursor: pointer;
+        height: 100%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         p {
           color: #000;
           text-align: center;
-          font-family: "AMX-Regular";
+          font-family: "AMX-Bold";
           font-size: 18px;
           font-weight: 700;
           pointer-events: none;
@@ -529,6 +549,39 @@ section.paquetesPrepium {
         background-repeat: no-repeat;
         width: 38px;
         height: 38px;
+      }
+      .slick-prev,
+      .slick-next {
+        width: 38px;
+        height: 38px;
+        &.slick-disabled {
+          opacity: 1;
+          filter: grayscale(1);
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+      .slick-prev::before,
+      .slick-next::before {
+        content: "";
+        width: 38px;
+        height: 38px;
+        background-image: url(assets/flechaSlider.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .slick-prev::before {
+        transform: rotate(180deg);
+      }
+      .slick-prev {
+        left: -40px;
+      }
+      .slick-next {
+        right: -40px;
       }
     }
     &.active {
@@ -806,6 +859,10 @@ section.popupInfo {
   section.popupInfo .content {
     padding: 45px 30px;
   }
+  section.paquetesPrepium .contentFa .contentSlider .slick-prev,
+  section.paquetesPrepium .contentFa .contentSlider .slick-next {
+    display: none !important;
+  }
 }
 
 @media (max-width: 650px) {
@@ -817,12 +874,19 @@ section.popupInfo {
   section.zona1 .contentCanales .itemCanal {
     flex-direction: column;
   }
+  section.paquetesPrepium .tabs div {
+    width: 255px;
+  }
 }
 
 @media (max-width: 600px) {
 }
 
 @media (max-width: 500px) {
+  section.paquetesPrepium .contentFa .contentSlider .slick-prev,
+  section.paquetesPrepium .contentFa .contentSlider .slick-next {
+    display: none !important;
+  }
   section.paquetesPrepium .contentFa .contentSlider .item p {
     font-size: 14px;
   }
@@ -851,6 +915,10 @@ section.popupInfo {
     display: flex;
     padding: 17px 18px;
     margin-top: 17px;
+    align-items: flex-start;
+    &.ocultar {
+      display: none;
+    }
     p {
       color: #fff;
       font-family: "AMX-Regular";
@@ -870,5 +938,23 @@ section.popupInfo {
   section.popupInfo .content .tipoServicio,
   section.popupInfo .content table tr td {
     font-size: 14px !important;
+  }
+  section.zona1 .filtros .item.filtro .anuncio p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .cards .itemCanal {
+    flex-direction: column;
+    max-width: 150px;
+  }
+  .cards .itemCanal .nuevo {
+    left: 15px;
+  }
+  section.paquetesPrepium .tabs div {
+    font-size: 18px;
+    width: 50%;
+  }
+  section.paquetesPrepium .tabs {
+    width: 100%;
   }
 }
