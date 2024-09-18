@@ -801,6 +801,11 @@ section.popupInfo .content table tr td.subcategoria {
   min-width: 40px;
 }
 
+@media (min-width: 1441px) {
+  .itemCanal .part2 .canales .tipo {
+    padding-top: 1px;
+  }
+}
 @media (max-width: 1440px) {
   section.zona1 .contentCanales {
     -ms-grid-columns: (1fr)[4];
