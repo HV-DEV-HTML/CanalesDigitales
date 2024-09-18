@@ -888,10 +888,33 @@ section.popupInfo .content table tr td.subcategoria {
     display: -ms-flexbox !important;
     display: flex !important;
   }
+  section.paquetesPrepium .contentFa .contentSlider .slick-prev,
+  section.paquetesPrepium .contentFa .contentSlider .slick-next {
+    display: none !important;
+  }
+  section.paquetesPrepium .tabs div {
+    width: 50%;
+  }
+  section.paquetesPrepium .tabs {
+    max-width: 700px;
+    width: 100%;
+  }
+  section.paquetesPrepium .contentFa .container {
+    width: 100%;
+  }
+  section.paquetesPrepium .contentFa .container .slick-track {
+    padding-left: 45px;
+  }
+  section.paquetesPrepium .contentFa .container .slick-track .slick-slide:last-child {
+    margin-right: 70px;
+  }
 }
 @media (max-width: 768px) {
-  section.paquetesPrepium .contentFa .container {
-    width: 95%;
+  section.paquetesPrepium .contentFa .container .slick-track {
+    padding-left: 25px;
+  }
+  section.paquetesPrepium .contentFa .container .slick-track .slick-slide:last-child {
+    margin-right: 60px;
   }
   section.zona1 .filtros {
     margin-top: 30px;
@@ -959,11 +982,11 @@ section.popupInfo .content table tr td.subcategoria {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  section.paquetesPrepium .tabs div {
-    width: 255px;
-  }
 }
 @media (max-width: 500px) {
+  section.paquetesPrepium h2 {
+    font-size: 24px;
+  }
   section.paquetesPrepium .contentFa .contentSlider .slick-prev,
   section.paquetesPrepium .contentFa .contentSlider .slick-next {
     display: none !important;
@@ -1040,10 +1063,20 @@ section.popupInfo .content table tr td.subcategoria {
     left: 15px;
   }
   section.paquetesPrepium .tabs div {
-    font-size: 18px;
+    font-size: 16px;
     width: 50%;
   }
   section.paquetesPrepium .tabs {
     width: 100%;
+  }
+  section.zona1 h2,
+  section.paquetesPrepium h2 {
+    letter-spacing: -1px;
+  }
+  section.paquetesPrepium .contentFa .container .slick-track {
+    padding-left: 8px;
+  }
+  section.paquetesPrepium .contentFa .container .slick-track .slick-slide:last-child {
+    margin-right: 30px;
   }
 }
