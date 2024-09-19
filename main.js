@@ -7905,7 +7905,7 @@ var itemsPaquetes = [
                     },
                     {
                         nombre: 'Universal Reality',
-                        imagen: 'assets/icon_universalrealityhd_sd.png',
+                        imagen: 'assets/icon_universalreality_sd.png',
                         nuevo: false,
                         canales: [
                             {
