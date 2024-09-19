@@ -1552,7 +1552,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Series',
-                        tipo: 'hd',
+                        tipo: 'HD',
                         canales: '#554'
                     }
                 ],
