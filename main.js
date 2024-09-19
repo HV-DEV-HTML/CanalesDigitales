@@ -328,7 +328,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Locales',
-                        tipo: 'SD',
+                        tipo: 'HD',
                         canales: '#514'
                     }
                 ],
