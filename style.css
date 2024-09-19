@@ -754,7 +754,7 @@ section.popupInfo .content .contentImagen {
   gap: 15px;
 }
 section.popupInfo .content .contentImagen img {
-  max-width: 137px;
+  max-width: 100px;
   width: 100%;
 }
 section.popupInfo .content .contentImagen p {

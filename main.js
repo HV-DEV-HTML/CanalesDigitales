@@ -387,7 +387,7 @@ var itemsCanales = [
     {
         id: '14',
         nombre: 'ATV',
-        imagen: 'assets/icon-atv.png',
+        imagen: 'assets/icon-atvhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
@@ -938,7 +938,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Noticias',
-                        tipo: 'HD',
+                        tipo: 'SD',
                         canales: '#21'
                     }
                 ],
@@ -975,8 +975,8 @@ var itemsCanales = [
                         canales: '#22'
                     }
                 ],
-                canalAvanzado: "21",
-                canalSuperior: "-",
+                canalAvanzado: "22",
+                canalSuperior: "22",
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
@@ -1074,7 +1074,7 @@ var itemsCanales = [
                         canales: '#53'
                     }
                 ],
-                canalAvanzado: "53",
+                canalAvanzado: "-",
                 canalSuperior: "53",
             },
             {
@@ -1087,8 +1087,8 @@ var itemsCanales = [
                         canales: '#255'
                     }
                 ],
-                canalAvanzado: "255",
-                canalSuperior: "-",
+                canalAvanzado: "-",
+                canalSuperior: "255",
             }
         ],
     },
@@ -1107,7 +1107,7 @@ var itemsCanales = [
                         canales: '#54'
                     }
                 ],
-                canalAvanzado: "54",
+                canalAvanzado: "-",
                 canalSuperior: "54",
             },
             {
@@ -1120,8 +1120,8 @@ var itemsCanales = [
                         canales: '#256'
                     }
                 ],
-                canalAvanzado: "256",
-                canalSuperior: "-",
+                canalAvanzado: "-",
+                canalSuperior: "256",
             }
         ],
     },
@@ -1478,41 +1478,8 @@ var itemsCanales = [
     },
     {
         id: '53',
-        nombre: 'Universal Channel',
-        imagen: 'assets/icon-universalchannel.png',
-        servicio: [
-            {
-                nombre: 'Claro Tv',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Series',
-                        tipo: 'HD',
-                        canales: '#125'
-                    }
-                ],
-                canalAvanzado: "125",
-                canalSuperior: "125",
-            },
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Series',
-                        tipo: 'SD',
-                        canales: '#104'
-                    }
-                ],
-                canalAvanzado: "104",
-                canalSuperior: "-",
-            }
-        ],
-    },
-    {
-        id: '54',
         nombre: 'Universal',
-        imagen: 'assets/icon-universalchannel.png',
+        imagen: 'assets/icon-universalhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
@@ -1618,7 +1585,7 @@ var itemsCanales = [
     {
         id: '58',
         nombre: 'A&E',
-        imagen: 'assets/icon-ae.png',
+        imagen: 'assets/icon-aehd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
@@ -1790,7 +1757,7 @@ var itemsCanales = [
     {
         id: '64',
         nombre: 'Comedy Central',
-        imagen: 'assets/icon_comedycental_hd.png',
+        imagen: 'assets/icon_comedycentralhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
@@ -2860,7 +2827,7 @@ var itemsCanales = [
     {
         id: '97',
         nombre: 'Nick Jr',
-        imagen: 'assets/icon_nickelodeon_sd.png',
+        imagen: 'assets/icon_nickjr_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
@@ -3142,26 +3109,6 @@ var itemsCanales = [
         ],
     },
     {
-        id: '105',
-        nombre: 'TeenNick',
-        imagen: 'assets/icon_teennick_hd.png',
-        servicio: [
-            {
-                nombre: 'Claro Tv',
-                paquete: ['Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Infantiles',
-                        tipo: 'HD',
-                        canales: '#47'
-                    }
-                ],
-                canalAvanzado: "-",
-                canalSuperior: "47",
-            }
-        ],
-    },
-    {
         id: '106',
         nombre: 'Discovery Turbo',
         imagen: 'assets/icon_discoveryturbo_hd.png',
@@ -3201,7 +3148,7 @@ var itemsCanales = [
         servicio: [
             {
                 nombre: 'Claro Tv',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
+                paquete: ['Tv Superior'],
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3209,12 +3156,12 @@ var itemsCanales = [
                         canales: '#83'
                     }
                 ],
-                canalAvanzado: "83",
+                canalAvanzado: "-",
                 canalSuperior: "83",
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
+                paquete: ['Tv Superior'],
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3222,8 +3169,8 @@ var itemsCanales = [
                         canales: '#536'
                     }
                 ],
-                canalAvanzado: "536",
-                canalSuperior: "-",
+                canalAvanzado: "-",
+                canalSuperior: "536",
             }
         ],
     },
@@ -4355,7 +4302,7 @@ var itemsCanales = [
     {
         id: '144',
         nombre: 'TELEHIT MÚSICA PLUS',
-        imagen: 'assets/icon_htv_sd.png',
+        imagen: 'assets/icon_telehitmusicaplus_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
@@ -4399,7 +4346,7 @@ var itemsCanales = [
         servicio: [
             {
                 nombre: 'Claro Tv',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
+                paquete: ['Tv Superior'],
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4407,7 +4354,7 @@ var itemsCanales = [
                         canales: '#98'
                     }
                 ],
-                canalAvanzado: "98",
+                canalAvanzado: "-",
                 canalSuperior: "98",
             },
         ],
