@@ -806,6 +806,10 @@ section.popupInfo .content table tr td.subcategoria {
 section.popupInfo .content table tr td.subcategoria {
   min-width: 40px;
 }
+section.popupInfo .content table tr td.subcategoria img {
+  margin: 0 auto;
+  width: 15px;
+}
 
 @media (min-width: 1441px) {
   .itemCanal .part2 .canales .tipo {

@@ -5520,7 +5520,7 @@ var itemsCanales = [
                     {
                         nombre: 'Factual',
                         tipo: 'SD',
-                        canales: '#239'
+                        canales: '#240'
                     }
                 ],
                 canalAvanzado: "-",
@@ -8622,7 +8622,9 @@ document.addEventListener("click", function (e) {
 
                     var tdSubcategoria = document.createElement('td');
                     tdSubcategoria.classList.add('subcategoria');
-                    tdSubcategoria.textContent = categoria.tipo;  // SD o HD
+                    tdSubcategoria.innerHTML = categoria.tipo
+                        ? categoria.tipo
+                        : `<img src="assets/bocina.svg" alt="bocina" />`;
                     filaTipoCanal.appendChild(tdSubcategoria);
 
                     var tdAvanzado = document.createElement('td');

@@ -732,6 +732,10 @@ section.popupInfo {
         }
         td.subcategoria {
           min-width: 40px;
+          img {
+            margin: 0 auto;
+            width: 15px;
+          }
         }
       }
     }
