@@ -7457,7 +7457,9 @@ function updateCanales() {
                 <div class="part2">
                   <div class="title">${canal.nombre}</div>
                   <div class="canales">
-                    <div class="tipo">${canal.tipo}</div>
+                    <div class="tipo">
+                    ${canal.tipo ? canal.tipo : `<img src="assets/bocina.svg" alt="tipo" />`}
+                    </div>
                     <div class="numeros">${canal.canales}</div>
                   </div>
                   <button>
