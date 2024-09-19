@@ -2622,11 +2622,11 @@ var itemsCanales = [
     {
         id: '88',
         nombre: 'ESPN 2',
-        imagen: 'assets/icon_espn2_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn2_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2640,6 +2640,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn2_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5051,7 +5052,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
+                paquete: ['Tv Superior'],
                 imagen: 'assets/France-24-Espanol.png',
                 categoria: [
                     {
@@ -5060,7 +5061,7 @@ var itemsCanales = [
                         canales: '#252'
                     }
                 ],
-                canalAvanzado: "252",
+                canalAvanzado: "-",
                 canalSuperior: "252",
             }
         ],
