@@ -7830,7 +7830,7 @@ var itemsPaquetes = [
         imagen: '',
         paquetes: [
             {
-                nombre: 'Liga 1 MAX HD',
+                nombre: 'Liga 1 MAX',
                 subpaquetes: [
                     {
                         nombre: 'L1 MAX',
