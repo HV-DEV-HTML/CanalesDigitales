@@ -2370,6 +2370,26 @@ var itemsCanales = [
         ],
     },
     {
+        id: '235',
+        nombre: 'Cinecanal HD',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinecanal_hd.png',
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#591'
+                    }
+                ],
+                canalAvanzado: "591",
+                canalSuperior: "591",
+            }
+        ],
+    },
+    {
         id: '80',
         nombre: 'Cinemax HD',
         servicio: [
@@ -5825,26 +5845,6 @@ var itemsCanales = [
                 ],
                 canalAvanzado: "595",
                 canalSuperior: "595",
-            }
-        ],
-    },
-    {
-        id: '196',
-        nombre: 'Sony Movies HD',
-        servicio: [
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                imagen: 'assets/icon_fxhd_hd.png',
-                categoria: [
-                    {
-                        nombre: 'Películas',
-                        tipo: 'HD',
-                        canales: '#596'
-                    }
-                ],
-                canalAvanzado: "596",
-                canalSuperior: "596",
             }
         ],
     },
