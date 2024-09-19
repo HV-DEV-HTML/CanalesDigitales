@@ -995,7 +995,9 @@ section.popupInfo {
   }
 
   section.zona1 h2,
-  section.paquetesPrepium h2 {
+  section.paquetesPrepium h2,
+  section.paquetesPrepium .contentFa .contentSlider .item p,
+  section.paquetesPrepium .tabs div {
     letter-spacing: -1px;
   }
   section.paquetesPrepium .contentFa .container {
