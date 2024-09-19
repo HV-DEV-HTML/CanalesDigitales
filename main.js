@@ -7401,6 +7401,14 @@ function updateCanales() {
     if (hayCanales) {
         sinCanal.classList.remove('active');
         bajada.classList.remove('noActive');
+
+        // Ordenar los canalesFiltrados tomando el primer número en la propiedad 'canales'
+        canalesFiltrados.sort((a, b) => {
+            const numeroA = parseInt(a.canales.split(',')[0].replace('#', '').trim());
+            const numeroB = parseInt(b.canales.split(',')[0].replace('#', '').trim());
+            return numeroA - numeroB; // Orden creciente
+        });
+
         // Calcular el número total de páginas
         totalPaginas = Math.ceil(canalesFiltrados.length / itemsPorPagina);
         paginacion.classList.toggle('active', totalPaginas > 1);
