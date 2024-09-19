@@ -7822,7 +7822,7 @@ var itemsPaquetes = [
                         canales: [
                             {
                                 tipo: 'HD',
-                                canales: '#10, #60'
+                                canales: '#10, #61'
                             }
                         ]
                     },
