@@ -5749,26 +5749,6 @@ var itemsCanales = [
         ],
     },
     {
-        id: '192',
-        nombre: 'TNT HD',
-        servicio: [
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                imagen: 'assets/Cinecanal HD.png',
-                categoria: [
-                    {
-                        nombre: 'Películas',
-                        tipo: 'HD',
-                        canales: '#591'
-                    }
-                ],
-                canalAvanzado: "591",
-                canalSuperior: "591",
-            }
-        ],
-    },
-    {
         id: '193',
         nombre: 'Golden PLUS HD',
         servicio: [
