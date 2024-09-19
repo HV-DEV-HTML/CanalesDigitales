@@ -532,7 +532,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "11",
-                canalSuperior: "-",
+                canalSuperior: "11",
             }
         ],
     },
@@ -3078,7 +3078,7 @@ var itemsCanales = [
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
-                        nombre: 'Musicales',
+                        nombre: 'Infantiles',
                         tipo: 'SD',
                         canales: '#51'
                     }
@@ -4301,7 +4301,7 @@ var itemsCanales = [
     },
     {
         id: '144',
-        nombre: 'TELEHIT MÚSICA PLUS',
+        nombre: 'Telehit Música Plus',
         imagen: 'assets/icon_telehitmusicaplus_hd.png',
         servicio: [
             {
@@ -5068,39 +5068,6 @@ var itemsCanales = [
     },
     {
         id: '171',
-        nombre: 'TELESUR',
-        imagen: 'assets/icon_telesur_sd.png',
-        servicio: [
-            {
-                nombre: 'Claro Tv',
-                paquete: ['Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Internacionales',
-                        tipo: 'SD',
-                        canales: '#218'
-                    }
-                ],
-                canalAvanzado: "-",
-                canalSuperior: "218",
-            },
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Internacionales',
-                        tipo: 'SD',
-                        canales: '#278'
-                    }
-                ],
-                canalAvanzado: "-",
-                canalSuperior: "278",
-            }
-        ],
-    },
-    {
-        id: '172',
         nombre: 'TELESUR',
         imagen: 'assets/icon_telesur_sd.png',
         servicio: [
@@ -6060,7 +6027,7 @@ var itemsCanales = [
                     {
                         nombre: 'Deportes',
                         tipo: 'HD',
-                        canales: '##527'
+                        canales: '#527'
                     }
                 ],
                 canalAvanzado: "#527",
@@ -7402,6 +7369,7 @@ function updateCanales() {
         sinCanal.classList.remove('active');
         bajada.classList.remove('noActive');
 
+
         // Ordenar los canalesFiltrados tomando el primer número en la propiedad 'canales'
         canalesFiltrados.sort((a, b) => {
             const numeroA = parseInt(a.canales.split(',')[0].replace('#', '').trim());
@@ -7516,46 +7484,480 @@ var itemsPaquetes = [
                 nombre: 'Paquete HBO',
                 subpaquetes: [
                     {
-                        nombre: 'HBO Xtreme',
-                        imagen: 'assets/icon_hboxtreme_sd.png',
+                        nombre: 'HBO',
+                        imagen: 'assets/icon_hbo_hd.png',
                         nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#176, #74'
+                                tipo: 'HD',
+                                canales: '#169'
                             }
                         ]
                     },
                     {
-                        nombre: 'HBO SIGNATURE',
-                        imagen: 'assets/icon_hbosignature_sd.png',
+                        nombre: 'HBO 2',
+                        imagen: 'assets/icon_hbo2hd_hd.png',
                         nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#175'
+                                tipo: 'HD',
+                                canales: '#170'
                             }
                         ]
                     },
                     {
-                        nombre: 'HBO FAMILY',
-                        imagen: 'assets/icon_hbofamily_sd.png',
+                        nombre: 'HBO Mundi',
+                        imagen: 'assets/icon_hbomundi_hd.png',
                         nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#174, #75'
+                                tipo: 'HD',
+                                canales: '#171'
                             }
                         ]
                     },
                     {
                         nombre: 'HBO PLUS',
-                        imagen: 'assets/icon_hboplus_sd.png',
+                        imagen: 'assets/icon_hboplus_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#172'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO FAMILY',
+                        imagen: 'assets/icon_hbofamilyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#173'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO SIGNATURE',
+                        imagen: 'assets/icon_hbosignature_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#174'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO Xtreme',
+                        imagen: 'assets/icon_hboxtreme_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#175'
+                            }
+                        ]
+                    },
+
+                    {
+                        nombre: 'HBO Pop',
+                        imagen: 'assets/icon_hbopop_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#176'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'Golden Premier',
+                subpaquetes: [
+                    {
+                        nombre: 'Golden Premier 1',
+                        imagen: 'assets/icon_goldenpremier1_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#190'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Golden Premier 2',
+                        imagen: 'assets/icon_goldenpremier2_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#191'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'Adrenalina Sports Network',
+                subpaquetes: [
+                    {
+                        nombre: 'Adrenalina Sports Network',
+                        imagen: 'assets/icon_adrenalinasports_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#69'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'Canal NHK',
+                subpaquetes: [
+                    {
+                        nombre: 'NHK Premium',
+                        imagen: 'assets/icon_nhkpremium_sd.png',
                         nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#173, #72'
+                                canales: '#224'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'HotPack HD',
+                subpaquetes: [
+
+                    {
+                        nombre: 'Playboy',
+                        imagen: 'assets/icon_playboyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#195'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Venus',
+                        imagen: 'assets/icon_venus_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#196'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Sexstreem',
+                        imagen: 'assets/icon_sexstreem_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#197'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'Paquete Universal+',
+                subpaquetes: [
+                    {
+                        nombre: 'Universal Cinema',
+                        imagen: 'assets/icon_universalcinema_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#180'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premiere',
+                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#181'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premiere 2',
+                        imagen: 'assets/icon-sinfoto.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#182'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime',
+                        imagen: 'assets/icon_universalcinema_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#183'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime 2',
+                        imagen: 'assets/icon-sinfoto.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#184'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Comedy',
+                        imagen: 'assets/icon_universalcomedyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#185'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Reality',
+                        imagen: 'assets/icon_universalrealityhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#186'
+                            }
+                        ]
+                    },
+                ]
+            },
+        ],
+    },
+    {
+        id: '1',
+        nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+        imagen: '',
+        paquetes: [
+            {
+                nombre: 'Liga 1 MAX HD',
+                subpaquetes: [
+                    {
+                        nombre: 'L1 MAX',
+                        imagen: 'assets/icon_l1maxhd_hd.png',
+                        nuevo: true,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#10'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'Paquete Universal+',
+                subpaquetes: [
+                    {
+                        nombre: 'Universal Cinema',
+                        imagen: 'assets/icon_universalcinema_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#180'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premiere',
+                        imagen: 'assets/icon_universalpremiere_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#181'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime',
+                        imagen: 'assets/icon_universalcrime_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#183'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Comedy',
+                        imagen: 'assets/icon_universalcomedy_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#185'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Reality',
+                        imagen: 'assets/icon_universalrealityhd_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#186'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premiere 2',
+                        imagen: 'assets/icon_universalpremiere_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#322'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime 2',
+                        imagen: 'assets/icon_universalcrime_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#326'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Cinema HD',
+                        imagen: 'assets/icon_universalcinemahd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#330, #620'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premier HD',
+                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#331, #621'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premier 2 HD',
+                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#332, #622'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime HD',
+                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#333, #623'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Comedy HD',
+                        imagen: 'assets/icon_universalcomedyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#334, #624'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Reality HD',
+                        imagen: 'assets/icon_universalrealityhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#335, #626'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime 2 HD',
+                        imagen: 'assets/icon_universalcrimehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#336, #625'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                nombre: 'Paquete HBO',
+                subpaquetes: [
+                    {
+                        nombre: 'HBO',
+                        imagen: 'assets/icon_hbo_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#170'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO 2',
+                        imagen: 'assets/icon_hbo2_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#171'
                             }
                         ]
                     },
@@ -7571,90 +7973,46 @@ var itemsPaquetes = [
                         ]
                     },
                     {
-                        nombre: 'HBO 2',
-                        imagen: 'assets/icon_hbo2_sd.png',
+                        nombre: 'HBO PLUS',
+                        imagen: 'assets/icon_hboplus_sd.png',
                         nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#171, #73'
+                                canales: '#173'
                             }
                         ]
                     },
                     {
-                        nombre: 'HBO Pop HD',
-                        imagen: 'assets/icon_hbopop_hd.png',
+                        nombre: 'HBO FAMILY',
+                        imagen: 'assets/icon_hbofamily_sd.png',
                         nuevo: false,
                         canales: [
                             {
-                                tipo: 'HD',
-                                canales: '#316, #608, #1620'
+                                tipo: 'SD',
+                                canales: '#174'
                             }
                         ]
                     },
                     {
-                        nombre: 'HBO Xtreme HD',
-                        imagen: 'assets/icon_hboxtreme_hd.png',
+                        nombre: 'HBO SIGNATURE',
+                        imagen: 'assets/icon_hbosignature_sd.png',
                         nuevo: false,
                         canales: [
                             {
-                                tipo: 'HD',
-                                canales: '#314, #606, #1614'
+                                tipo: 'SD',
+                                canales: '#175'
                             }
                         ]
                     },
                     {
-                        nombre: 'HBO SIGNATURE HD',
-                        imagen: 'assets/icon_hbosignature_hd.png',
+                        nombre: 'HBO Xtreme',
+                        imagen: 'assets/icon_hboxtreme_sd.png',
                         nuevo: false,
                         canales: [
                             {
-                                tipo: 'HD',
-                                canales: '#313, #606, #1612'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO FAMILY HD',
-                        imagen: 'assets/icon_hbofamilyhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#312, #604, #1610'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO PLUS HD',
-                        imagen: 'assets/icon_hboplus_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#311, #603, #1606'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO Mundi HD',
-                        imagen: 'assets/icon_hbomundi_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#310, #602'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO 2 HD',
-                        imagen: 'assets/icon_hbo2hd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#309, #601'
+                                tipo: 'SD',
+                                canales: '#176'
                             }
                         ]
                     },
@@ -7665,7 +8023,84 @@ var itemsPaquetes = [
                         canales: [
                             {
                                 tipo: 'HD',
-                                canales: '#308, #600, #1602'
+                                canales: '#308, #600'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO 2 HD',
+                        imagen: 'assets/icon_hbo2_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#309, #601'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO MUNDI HD',
+                        imagen: 'assets/icon_hbomundihd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#310, #602'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO PLUS HD',
+                        imagen: 'assets/icon_hbomundihd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#311, #603'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO FAMILY HD',
+                        imagen: 'assets/icon_hbofamilyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#312, #604'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO SIGNATURE HD',
+                        imagen: 'assets/icon_hbosignature_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#313, #605'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO EXTREME HD',
+                        imagen: 'assets/icon_hboxtreme_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#314, #606'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO POP HD',
+                        imagen: 'assets/icon_hbopop_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#316, #608'
                             }
                         ]
                     },
@@ -7697,19 +8132,19 @@ var itemsPaquetes = [
                         ]
                     },
                     {
-                        nombre: 'Golden Premier Este HD',
-                        imagen: 'assets/icon_goldenpremier2_hd.png',
+                        nombre: 'Golden Premier 1 HD',
+                        imagen: 'assets/icon_goldenpremier1_hd.png',
                         nuevo: false,
                         canales: [
                             {
                                 tipo: 'HD',
-                                canales: '#650, #1650'
+                                canales: '#650'
                             }
                         ]
                     },
                     {
-                        nombre: 'Golden Premier Oeste HD',
-                        imagen: 'assets/icon_goldenpremier2_hd.png',
+                        nombre: 'Golden Premier 2 HD',
+                        imagen: 'assets/icon_goldenpremier1_sd.png',
                         nuevo: false,
                         canales: [
                             {
@@ -7724,18 +8159,7 @@ var itemsPaquetes = [
                 nombre: 'Adrenalina Sports Network',
                 subpaquetes: [
                     {
-                        nombre: 'ADRENALINA SPORTS NETWORK',
-                        imagen: 'assets/icon_adrenalinasports_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#77'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'ADRENALINA SPORTS NETWORK HD',
+                        nombre: 'Adrenalina Sports Network HD',
                         imagen: 'assets/icon_adrenalinasportsnetwork_hd.png',
                         nuevo: false,
                         canales: [
@@ -7748,10 +8172,10 @@ var itemsPaquetes = [
                 ]
             },
             {
-                nombre: 'Canal NHK',
+                nombre: 'Canal NHK HD',
                 subpaquetes: [
                     {
-                        nombre: 'NHK WORLD PREMIUM',
+                        nombre: 'NHK Premium',
                         imagen: 'assets/icon_nhkpremium_sd.png',
                         nuevo: false,
                         canales: [
@@ -7784,7 +8208,7 @@ var itemsPaquetes = [
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#196, #290'
+                                canales: '#196'
                             }
                         ]
                     },
@@ -7796,406 +8220,6 @@ var itemsPaquetes = [
                             {
                                 tipo: 'SD',
                                 canales: '#197'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Playboy HD',
-                        imagen: 'assets/icon_playboyhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#706, #1996'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'Paquete Universal+',
-                subpaquetes: [
-                    {
-                        nombre: 'Universal Premiere',
-                        imagen: 'assets/icon_universalpremiere_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#181, #81'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Cinema',
-                        imagen: 'assets/icon_universalcinema_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#180'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Comedy',
-                        imagen: 'assets/icon_universalcomedy_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#185, #82'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Crime',
-                        imagen: 'assets/icon_universalcrime_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#183'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Reality',
-                        imagen: 'assets/icon_universalreality_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#186'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Premiere HD',
-                        imagen: 'assets/icon_universalpremierehd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#331, #621'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Cinema HD',
-                        imagen: 'assets/icon_universalcinema_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#330, #620'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Comedy HD',
-                        imagen: 'assets/icon_universalcomedyhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#334, #624'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Crime HD',
-                        imagen: 'assets/icon_universalcrimehd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#333, #623'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Reality HD',
-                        imagen: 'assets/icon_universalrealityhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#336'
-                            }
-                        ]
-                    },
-                ]
-            },
-        ],
-
-    },
-    {
-        id: '1',
-        nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-        imagen: '',
-        paquetes: [
-            {
-                nombre: 'Liga 1 MAX HD',
-                subpaquetes: [
-                    {
-                        nombre: 'L1 MAX',
-                        imagen: 'assets/icon_l1maxhd_hd.png',
-                        nuevo: true,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#10'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'Paquete Universal+',
-                subpaquetes: [
-                    {
-                        nombre: 'Universal Premiere HD',
-                        imagen: 'assets/icon_universalpremierehd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#181'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Cinema HD',
-                        imagen: 'assets/icon_universalcinema_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#180'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Comedy HD',
-                        imagen: 'assets/icon_universalcomedyhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#185'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Crime HD',
-                        imagen: 'assets/icon_universalcrimehd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#183'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Universal Reality HD',
-                        imagen: 'assets/icon_universalrealityhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#186'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'Paquete HBO',
-                subpaquetes: [
-                    {
-                        nombre: 'HBO Pop HD',
-                        imagen: 'assets/icon_hbopop_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#316, #608'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO Xtreme HD',
-                        imagen: 'assets/icon_hboxtreme_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#314, #606'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO SIGNATURE HD',
-                        imagen: 'assets/icon_hbosignature_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#313, #605'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO FAMILY HD',
-                        imagen: 'assets/icon_hbofamilyhd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#312, #604'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO PLUS HD',
-                        imagen: 'assets/icon_hboplus_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#311, #603'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO Mundi HD',
-                        imagen: 'assets/icon_hbomundi_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#310, #602'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO 2 HD',
-                        imagen: 'assets/icon_hbo2hd_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#309, #601'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'HBO HD',
-                        imagen: 'assets/icon_hbo_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#308, #600'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'Golden Premier',
-                subpaquetes: [
-                    {
-                        nombre: 'Golden Premier 1 HD',
-                        imagen: 'assets/icon_goldenpremier2_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#650'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Golden Premier 2 HD',
-                        imagen: 'assets/icon_goldenpremier2_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#651'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'Adrenalina Sports Network',
-                subpaquetes: [
-                    {
-                        nombre: 'FIGHTING SPORTS NETWORK HD',
-                        imagen: 'assets/icon_adrenalinasportsnetwork_hd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'HD',
-                                canales: '#526'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'Canal NHK HD',
-                subpaquetes: [
-                    {
-                        nombre: 'NHK WORLD PREMIUM',
-                        imagen: 'assets/icon_nhkpremium_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#170'
-                            }
-                        ]
-                    },
-                ]
-            },
-            {
-                nombre: 'HotPack HD',
-                subpaquetes: [
-                    {
-                        nombre: 'Playboy',
-                        imagen: 'assets/icon_playboy_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#700'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Venus',
-                        imagen: 'assets/icon_venus_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#702'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'Sexstreem',
-                        imagen: 'assets/icon_sexstreem_sd.png',
-                        nuevo: false,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#704'
                             }
                         ]
                     },
