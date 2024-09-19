@@ -16,11 +16,11 @@ var itemsCanales = [
     {
         id: '0',
         nombre: 'Latina',
-        imagen: 'assets/icon-latina.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-latina.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -34,6 +34,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-latina.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -42,18 +43,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "2",
-                canalSuperior: "-",
+                canalSuperior: "2",
             }
         ],
     },
     {
         id: '1',
         nombre: 'Latina HD',
-        imagen: 'assets/icon-latina.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-latina.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -62,18 +63,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "502",
-                canalSuperior: "-",
+                canalSuperior: "502",
             }
         ],
     },
     {
         id: '2',
         nombre: 'América TV',
-        imagen: 'assets/icon-americatv.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-americatv.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -87,6 +88,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-americatvsd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -95,18 +97,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "4",
-                canalSuperior: "-",
+                canalSuperior: "4",
             }
         ],
     },
     {
         id: '3',
         nombre: 'América TV HD',
-        imagen: 'assets/icon-americatv.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-americatv.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -115,18 +117,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "504",
-                canalSuperior: "-",
+                canalSuperior: "504",
             }
         ],
     },
     {
         id: '4',
         nombre: 'Panamericana',
-        imagen: 'assets/icon-panamericana.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-panamericana.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -140,6 +142,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-panamericanasd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -148,18 +151,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "5",
-                canalSuperior: "-",
+                canalSuperior: "5",
             }
         ],
     },
     {
         id: '5',
         nombre: 'Panamericana HD',
-        imagen: 'assets/icon-panamericana.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-panamericana.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -168,18 +171,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "505",
-                canalSuperior: "-",
+                canalSuperior: "505",
             }
         ],
     },
     {
         id: '6',
         nombre: 'Canal J',
-        imagen: 'assets/icon-canalj.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canalj.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -193,6 +196,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canalj.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -201,18 +205,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "24",
-                canalSuperior: "-",
+                canalSuperior: "24",
             }
         ],
     },
     {
         id: '7',
         nombre: 'Canal J HD',
-        imagen: 'assets/icon-canalj.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canalj.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -221,18 +225,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "535",
-                canalSuperior: "-",
+                canalSuperior: "535",
             }
         ],
     },
     {
         id: '8',
         nombre: 'TV Perú',
-        imagen: 'assets/icon-tvperu.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tvperu.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -246,6 +250,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tvperusd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -254,18 +259,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "7",
-                canalSuperior: "-",
+                canalSuperior: "7",
             }
         ],
     },
     {
         id: '9',
         nombre: 'TV Perú 7.3',
-        imagen: 'assets/icon-tvperu7.3.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tvperu7.3.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -279,6 +284,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tvperu7.3.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -287,18 +293,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "14",
-                canalSuperior: "-",
+                canalSuperior: "14",
             }
         ],
     },
     {
         id: '10',
         nombre: 'TV Perú HD',
-        imagen: 'assets/icon-tvperu.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tvperu.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -307,18 +313,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "507",
-                canalSuperior: "-",
+                canalSuperior: "507",
             }
         ],
     },
     {
         id: '11',
         nombre: 'TV Perú 7.3 HD',
-        imagen: 'assets/icon-tvperu7.3.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tvperu7.3.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -327,18 +333,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "514",
-                canalSuperior: "-",
+                canalSuperior: "514",
             }
         ],
     },
     {
         id: '12',
         nombre: 'ALACOCINA TV',
-        imagen: 'assets/icon-alacocina.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-alacocina.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -352,6 +358,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-alacocina.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -360,18 +367,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "8",
-                canalSuperior: "-",
+                canalSuperior: "8",
             }
         ],
     },
     {
         id: '13',
         nombre: 'ALACOCINA TV HD',
-        imagen: 'assets/icon-alacocina.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-alacocina.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -380,18 +387,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "508",
-                canalSuperior: "-",
+                canalSuperior: "508",
             }
         ],
     },
     {
         id: '14',
         nombre: 'ATV',
-        imagen: 'assets/icon-atvhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atvhd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -405,6 +412,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atv.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -413,18 +421,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "9",
-                canalSuperior: "-",
+                canalSuperior: "9",
             }
         ],
     },
     {
         id: '15',
         nombre: 'ATV Sur',
-        imagen: 'assets/icon-atv-sur.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atv-sur.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -438,6 +446,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atv-sur.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -446,18 +455,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "27",
-                canalSuperior: "-",
+                canalSuperior: "27",
             }
         ],
     },
     {
         id: '16',
         nombre: 'ATV+',
-        imagen: 'assets/icon-atv+.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atv+.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -471,6 +480,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atv+.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -479,18 +489,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "17",
-                canalSuperior: "-",
+                canalSuperior: "17",
             }
         ],
     },
     {
         id: '17',
         nombre: 'ATV HD',
-        imagen: 'assets/icon-atvhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-atvhd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -506,11 +516,11 @@ var itemsCanales = [
     {
         id: '18',
         nombre: 'Viva TV',
-        imagen: 'assets/icon-vivatv.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-vivatv.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -524,6 +534,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-vivatv.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -539,11 +550,11 @@ var itemsCanales = [
     {
         id: '19',
         nombre: 'Global',
-        imagen: 'assets/icon-Global.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-Global.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -559,11 +570,11 @@ var itemsCanales = [
     {
         id: '20',
         nombre: 'Global TV',
-        imagen: 'assets/icon-Globaltv.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-Globaltv.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -572,18 +583,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "13",
-                canalSuperior: "-",
+                canalSuperior: "13",
             }
         ],
     },
     {
         id: '21',
         nombre: 'Global TV HD',
-        imagen: 'assets/icon-Globaltvhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-Globaltvhd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -592,18 +603,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "513",
-                canalSuperior: "-",
+                canalSuperior: "513",
             }
         ],
     },
     {
         id: '22',
         nombre: 'IPE',
-        imagen: 'assets/icon-ipe.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-ipe.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -617,6 +628,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-ipe.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -625,18 +637,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "25",
-                canalSuperior: "-",
+                canalSuperior: "25",
             }
         ],
     },
     {
         id: '23',
         nombre: 'IPE HD',
-        imagen: 'assets/icon-ipehd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-ipehd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -645,18 +657,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "545",
-                canalSuperior: "-",
+                canalSuperior: "545",
             }
         ],
     },
     {
         id: '24',
         nombre: 'La Tele',
-        imagen: 'assets/icon-latele.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-latele.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -670,26 +682,27 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-latele.png',
                 categoria: [
                     {
                         nombre: 'Locales',
                         tipo: 'SD',
-                        canales: '#26, #16'
+                        canales: '#26'
                     }
                 ],
-                canalAvanzado: "26, 16",
-                canalSuperior: "-",
+                canalAvanzado: "26",
+                canalSuperior: "26",
             }
         ],
     },
     {
         id: '25',
         nombre: 'Exitosa',
-        imagen: 'assets/icon-exitosa.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-exitosa.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -703,6 +716,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-exitosa.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -711,18 +725,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "19",
-                canalSuperior: "-",
+                canalSuperior: "19",
             }
         ],
     },
     {
         id: '26',
         nombre: 'Exitosa HD',
-        imagen: 'assets/icon-exitosa.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-exitosa.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -731,18 +745,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "517",
-                canalSuperior: "-",
+                canalSuperior: "517",
             }
         ],
     },
     {
         id: '27',
         nombre: 'Nativa',
-        imagen: 'assets/icon-nativa.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-nativa.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -756,6 +770,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-nativa.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -764,18 +779,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "31",
-                canalSuperior: "-",
+                canalSuperior: "31",
             }
         ],
     },
     {
         id: '28',
         nombre: 'Nativa HD',
-        imagen: 'assets/icon-nativa.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-nativa.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -784,18 +799,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "516",
-                canalSuperior: "-",
+                canalSuperior: "516",
             }
         ],
     },
     {
         id: '29',
         nombre: 'PBO',
-        imagen: 'assets/icon-sinfoto.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sinfoto.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -809,6 +824,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sinfoto.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -817,18 +833,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "18",
-                canalSuperior: "-",
+                canalSuperior: "18",
             }
         ],
     },
     {
         id: '30',
         nombre: 'PBO HD',
-        imagen: 'assets/icon-sinfoto.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sinfoto.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -837,18 +853,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "515",
-                canalSuperior: "-",
+                canalSuperior: "515",
             }
         ],
     },
     {
         id: '31',
         nombre: 'Sol TV +',
-        imagen: 'assets/icon-soltv+.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-soltv+.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -862,6 +878,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-soltv+.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -870,18 +887,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "28",
-                canalSuperior: "-",
+                canalSuperior: "28",
             }
         ],
     },
     {
         id: '32',
         nombre: 'Willax',
-        imagen: 'assets/icon-willax.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-willax.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -895,6 +912,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-willax.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -903,18 +921,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "12",
-                canalSuperior: "-",
+                canalSuperior: "12",
             }
         ],
     },
     {
         id: '33',
         nombre: 'Willax HD',
-        imagen: 'assets/icon-willax.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-willax.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -923,18 +941,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "512",
-                canalSuperior: "-",
+                canalSuperior: "512",
             }
         ],
     },
     {
         id: '34',
         nombre: 'Canal Justicia',
-        imagen: 'assets/icon-canaljusticia.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canaljusticia.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -948,6 +966,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canaljusticia.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -956,18 +975,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "21",
-                canalSuperior: "-",
+                canalSuperior: "21",
             }
         ],
     },
     {
         id: '35',
         nombre: 'Canal del Congreso',
-        imagen: 'assets/icon-canaldelcongreso.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canaldelcongreso.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -981,6 +1000,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-canaldelcongreso.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -996,11 +1016,11 @@ var itemsCanales = [
     {
         id: '36',
         nombre: 'CNN en Español',
-        imagen: 'assets/icon-cnnenespanol.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-cnnenespanol.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1014,6 +1034,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-cnnenespanol.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1029,11 +1050,11 @@ var itemsCanales = [
     {
         id: '37',
         nombre: 'CNN',
-        imagen: 'assets/icon-cnn.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-cnn.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1047,6 +1068,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-cnn.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1055,18 +1077,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "251",
-                canalSuperior: "-",
+                canalSuperior: "251",
             }
         ],
     },
     {
         id: '38',
         nombre: 'HLN',
-        imagen: 'assets/icon-hln.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon-hln.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1080,6 +1102,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon-hln.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1095,11 +1118,11 @@ var itemsCanales = [
     {
         id: '39',
         nombre: 'Fox News',
-        imagen: 'assets/icon-foxnews.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon-foxnews.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1113,6 +1136,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon-foxnews.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -1128,11 +1152,11 @@ var itemsCanales = [
     {
         id: '40',
         nombre: 'L1',
-        imagen: 'assets/icon-l1.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-l1.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -1146,26 +1170,27 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-l1.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
                         tipo: 'SD',
-                        canales: '#3, #60'
+                        canales: '#3'
                     }
                 ],
                 canalAvanzado: "3",
-                canalSuperior: "60",
+                canalSuperior: "3",
             }
         ],
     },
     {
         id: '41',
         nombre: 'TNT Series',
-        imagen: 'assets/icon-tntseries.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tntseries.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1179,6 +1204,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tntseries.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1187,18 +1213,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "107",
-                canalSuperior: "-",
+                canalSuperior: "107",
             }
         ],
     },
     {
         id: '42',
         nombre: 'TNT Series HD',
-        imagen: 'assets/icon-tntseries.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-tntseries.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1207,18 +1233,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "549",
-                canalSuperior: "-",
+                canalSuperior: "549",
             }
         ],
     },
     {
         id: '43',
         nombre: 'Sony',
-        imagen: 'assets/icon-sony.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sony.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1232,6 +1258,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sonysd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1240,18 +1267,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "100",
-                canalSuperior: "-",
+                canalSuperior: "100",
             }
         ],
     },
     {
         id: '44',
         nombre: 'Sony Movies',
-        imagen: 'assets/icon-sonymovies.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sonymovies.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1265,6 +1292,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sonymovies.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1273,18 +1301,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "143",
-                canalSuperior: "-",
+                canalSuperior: "143",
             }
         ],
     },
     {
         id: '45',
         nombre: 'Sony HD',
-        imagen: 'assets/icon-sonyhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sonyhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1293,18 +1321,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "550",
-                canalSuperior: "-",
+                canalSuperior: "550",
             }
         ],
     },
     {
         id: '46',
         nombre: 'Sony Movies HD',
-        imagen: 'assets/icon-sonymovieshd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-sonymovieshd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1313,18 +1341,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "596",
-                canalSuperior: "-",
+                canalSuperior: "596",
             }
         ],
     },
     {
         id: '47',
         nombre: 'Warner Channel',
-        imagen: 'assets/icon-warnerchannel.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-warnerchannel.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1338,6 +1366,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_warnerchannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1346,18 +1375,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "101",
-                canalSuperior: "-",
+                canalSuperior: "101",
             }
         ],
     },
     {
         id: '48',
         nombre: 'Warner Channel HD',
-        imagen: 'assets/icon-warnerchannelhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-warnerchannelhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1366,18 +1395,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "551",
-                canalSuperior: "-",
+                canalSuperior: "551",
             }
         ],
     },
     {
         id: '49',
         nombre: 'Star Channel',
-        imagen: 'assets/icon-starchannel.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-starchannel.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1391,6 +1420,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-starchannel.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1399,18 +1429,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "102",
-                canalSuperior: "-",
+                canalSuperior: "102",
             }
         ],
     },
     {
         id: '50',
         nombre: 'Star Channel HD',
-        imagen: 'assets/icon-starchannelhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-starchannelhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1419,18 +1449,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "552",
-                canalSuperior: "-",
+                canalSuperior: "552",
             }
         ],
     },
     {
         id: '51',
         nombre: 'AXN',
-        imagen: 'assets/icon-axn.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-axnhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1444,6 +1474,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-axn.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1452,18 +1483,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "103",
-                canalSuperior: "-",
+                canalSuperior: "103",
             }
         ],
     },
     {
         id: '52',
         nombre: 'AXN HD',
-        imagen: 'assets/icon-axnhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-axnhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1472,18 +1503,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "553",
-                canalSuperior: "-",
+                canalSuperior: "553",
             }
         ],
     },
     {
         id: '53',
         nombre: 'Universal',
-        imagen: 'assets/icon-universalhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-universalhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1497,6 +1528,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-universalchannel.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1505,18 +1537,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "104",
-                canalSuperior: "-",
+                canalSuperior: "104",
             }
         ],
     },
     {
         id: '55',
         nombre: 'Universal HD',
-        imagen: 'assets/icon-universalhd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-universalhd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1525,18 +1557,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "554",
-                canalSuperior: "-",
+                canalSuperior: "554",
             }
         ],
     },
     {
         id: '56',
         nombre: 'Studio Universal',
-        imagen: 'assets/icon-studiouniversal.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_studiouniversalhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1550,6 +1582,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_studiouniversal_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1558,18 +1591,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "144",
-                canalSuperior: "-",
+                canalSuperior: "144",
             }
         ],
     },
     {
         id: '57',
         nombre: 'Studio Universal HD',
-        imagen: 'assets/icon_studiouniversalhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_studiouniversalhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1578,18 +1611,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "588",
-                canalSuperior: "-",
+                canalSuperior: "588",
             }
         ],
     },
     {
         id: '58',
         nombre: 'A&E',
-        imagen: 'assets/icon-aehd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-aehd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1603,6 +1636,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-ae.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1611,18 +1645,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "105",
-                canalSuperior: "-",
+                canalSuperior: "105",
             }
         ],
     },
     {
         id: '59',
         nombre: 'A&E HD',
-        imagen: 'assets/icon-aehd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-aehd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1631,18 +1665,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "556",
-                canalSuperior: "-",
+                canalSuperior: "556",
             }
         ],
     },
     {
         id: '60',
         nombre: 'Lifetime',
-        imagen: 'assets/icon-lifetime.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-lifetime.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1656,6 +1690,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-lifetime.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1664,18 +1699,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "106",
-                canalSuperior: "-",
+                canalSuperior: "106",
             }
         ],
     },
     {
         id: '61',
         nombre: 'Lifetime HD',
-        imagen: 'assets/icon-lifetime.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon-lifetime.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1684,18 +1719,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "531",
-                canalSuperior: "-",
+                canalSuperior: "531",
             }
         ],
     },
     {
         id: '62',
         nombre: 'TNT Novelas',
-        imagen: 'assets/icon_tntnovelas_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tntnovelas_sd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1709,6 +1744,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tntnovelas_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -1717,18 +1753,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "219",
-                canalSuperior: "-",
+                canalSuperior: "219",
             }
         ],
     },
     {
         id: '63',
         nombre: 'MTV',
-        imagen: 'assets/icon_mtv_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_mtv_hd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1742,6 +1778,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_mtv_sd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1750,18 +1787,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "110",
-                canalSuperior: "-",
+                canalSuperior: "110",
             }
         ],
     },
     {
         id: '64',
         nombre: 'Comedy Central',
-        imagen: 'assets/icon_comedycentralhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_comedycentralhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1775,6 +1812,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_comedycentral_sd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1783,18 +1821,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "111",
-                canalSuperior: "-",
+                canalSuperior: "111",
             }
         ],
     },
     {
         id: '65',
         nombre: 'USA',
-        imagen: 'assets/icon_usa_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_usa_hd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1808,6 +1846,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_usa_hd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -1823,11 +1862,11 @@ var itemsCanales = [
     {
         id: '66',
         nombre: 'De Película',
-        imagen: 'assets/icon_depelicula_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_depelicula_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1841,6 +1880,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_depelicula_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1849,18 +1889,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "130",
-                canalSuperior: "-",
+                canalSuperior: "130",
             }
         ],
     },
     {
         id: '67',
         nombre: 'Claro Cinema',
-        imagen: 'assets/icon_clarocinema_sf.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_clarocinema_sf.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1874,6 +1914,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_clarocinema_sf.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1882,18 +1923,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "131",
-                canalSuperior: "-",
+                canalSuperior: "131",
             }
         ],
     },
     {
         id: '68',
         nombre: 'Multipremier',
-        imagen: 'assets/icon_multipremier_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_multipremier_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1907,6 +1948,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_multipremier_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1915,18 +1957,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "132",
-                canalSuperior: "-",
+                canalSuperior: "132",
             }
         ],
     },
     {
         id: '69',
         nombre: 'Film&arts',
-        imagen: 'assets/icon_film&arts_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_film&arts_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1940,6 +1982,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_film&arts_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1948,18 +1991,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "134",
-                canalSuperior: "-",
+                canalSuperior: "134",
             }
         ],
     },
     {
         id: '70',
         nombre: 'TCM',
-        imagen: 'assets/icon_tcm_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tcm_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1973,6 +2016,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tcm_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -1981,18 +2025,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "136",
-                canalSuperior: "-",
+                canalSuperior: "136",
             }
         ],
     },
     {
         id: '70',
         nombre: 'FX',
-        imagen: 'assets/icon_fx_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_fx_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2006,6 +2050,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_fx_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2014,18 +2059,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "142",
-                canalSuperior: "-",
+                canalSuperior: "142",
             }
         ],
     },
     {
         id: '71',
         nombre: 'Space',
-        imagen: 'assets/icon_space_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_space_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2039,6 +2084,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_space_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2047,18 +2093,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "140",
-                canalSuperior: "-",
+                canalSuperior: "140",
             }
         ],
     },
     {
         id: '72',
         nombre: 'AMC',
-        imagen: 'assets/icon_amc_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_amc_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2072,6 +2118,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_amc_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2080,18 +2127,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "141",
-                canalSuperior: "-",
+                canalSuperior: "141",
             }
         ],
     },
     {
         id: '73',
         nombre: 'EUROCHANNEL',
-        imagen: 'assets/icon_eurochannel_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_eurochannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2105,6 +2152,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_eurochannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2113,18 +2161,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "135",
-                canalSuperior: "-",
+                canalSuperior: "135",
             }
         ],
     },
     {
         id: '74',
         nombre: 'CineLatino',
-        imagen: 'assets/icon_cinelatino_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinelatino_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2138,6 +2186,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinelatino_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2146,18 +2195,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "133",
-                canalSuperior: "-",
+                canalSuperior: "133",
             }
         ],
     },
     {
         id: '75',
         nombre: 'TNT',
-        imagen: 'assets/icon_tnt_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tnt_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2171,6 +2220,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tnt_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2179,18 +2229,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "147",
-                canalSuperior: "-",
+                canalSuperior: "147",
             }
         ],
     },
     {
         id: '76',
         nombre: 'Paramount',
-        imagen: 'assets/icon_paramount_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_paramount_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2204,6 +2254,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_paramount_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2212,18 +2263,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "148",
-                canalSuperior: "-",
+                canalSuperior: "148",
             }
         ],
     },
     {
         id: '77',
         nombre: 'Golden',
-        imagen: 'assets/icon_golden_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_golden_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2237,6 +2288,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_golden_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2245,18 +2297,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "149",
-                canalSuperior: "-",
+                canalSuperior: "149",
             }
         ],
     },
     {
         id: '78',
         nombre: 'Golden Edge',
-        imagen: 'assets/icon_goldenedge_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_goldenedge_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2270,6 +2322,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_goldenedge_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2278,18 +2331,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "150",
-                canalSuperior: "-",
+                canalSuperior: "150",
             }
         ],
     },
     {
         id: '79',
         nombre: 'Cinecanal',
-        imagen: 'assets/icon_cinecanal_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinecanal_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2303,6 +2356,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinecanal_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2311,18 +2365,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "151",
-                canalSuperior: "-",
+                canalSuperior: "151",
             }
         ],
     },
     {
         id: '80',
         nombre: 'Cinemax HD',
-        imagen: 'assets/icon_cinemax_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinemax_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2336,6 +2390,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinemax_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2344,18 +2399,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "587",
-                canalSuperior: "-",
+                canalSuperior: "587",
             }
         ],
     },
     {
         id: '81',
         nombre: 'Cinemax',
-        imagen: 'assets/icon_cinemax_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cinemax_sd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2364,18 +2419,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "152",
-                canalSuperior: "-",
+                canalSuperior: "152",
             }
         ],
     },
     {
         id: '82',
         nombre: 'DHE',
-        imagen: 'assets/icon_dhe_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_dhe_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2388,6 +2443,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_dhe_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -2404,11 +2460,11 @@ var itemsCanales = [
     {
         id: '83',
         nombre: 'Golden PLUS',
-        imagen: 'assets/icon_goldeplus_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_goldeplus_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2424,11 +2480,11 @@ var itemsCanales = [
     {
         id: '84',
         nombre: 'De Película Plus',
-        imagen: 'assets/icon_depeliculaplus_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_depeliculaplus_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -2444,10 +2500,10 @@ var itemsCanales = [
     {
         id: '85',
         nombre: 'L1 MAX',
-        imagen: 'assets/icon-l1max.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
+                imagen: 'assets/icon-l1max.png',
                 paquete: [],
                 categoria: [
                     {
@@ -2461,6 +2517,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon-l1max.png',
                 paquete: [],
                 categoria: [
                     {
@@ -2477,11 +2534,11 @@ var itemsCanales = [
     {
         id: '86',
         nombre: 'Claro Sports',
-        imagen: 'assets/icon_clarosports_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_clarosports_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2495,6 +2552,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_clarosports_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2503,18 +2561,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "63",
-                canalSuperior: "-",
+                canalSuperior: "63",
             }
         ],
     },
     {
         id: '87',
         nombre: 'ESPN',
-        imagen: 'assets/icon_espn_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2528,6 +2586,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn_sd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2536,7 +2595,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "68",
-                canalSuperior: "-",
+                canalSuperior: "68",
             }
         ],
     },
@@ -2569,18 +2628,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "69",
-                canalSuperior: "-",
+                canalSuperior: "69",
             }
         ],
     },
     {
         id: '89',
         nombre: 'ESPN 3',
-        imagen: 'assets/icon_espn3_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn3_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2594,6 +2653,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn3_sd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2602,18 +2662,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "70",
-                canalSuperior: "-",
+                canalSuperior: "70",
             }
         ],
     },
     {
         id: '90',
         nombre: 'ESPN 4',
-        imagen: 'assets/icon_espn4hd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_espn4hd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2621,7 +2681,7 @@ var itemsCanales = [
                         canales: '#64'
                     }
                 ],
-                canalAvanzado: "64",
+                canalAvanzado: "-",
                 canalSuperior: "64",
             }
         ],
@@ -2629,11 +2689,11 @@ var itemsCanales = [
     {
         id: '91',
         nombre: 'ESPN 5',
-        imagen: 'assets/icon_espn5_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn5_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2647,6 +2707,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn5_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2655,18 +2716,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "71",
-                canalSuperior: "-",
+                canalSuperior: "71",
             }
         ],
     },
     {
         id: '92',
         nombre: 'ESPN 6',
-        imagen: 'assets/icon_espn6_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn6_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2680,6 +2741,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn6_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2688,18 +2750,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "72",
-                canalSuperior: "-",
+                canalSuperior: "72",
             }
         ],
     },
     {
         id: '93',
         nombre: 'ESPN 7',
-        imagen: 'assets/icon_espn7_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn7_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2713,6 +2775,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn7_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2721,18 +2784,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "73",
-                canalSuperior: "-",
+                canalSuperior: "73",
             }
         ],
     },
     {
         id: '94',
         nombre: 'TyC Sports',
-        imagen: 'assets/icon_tycsports_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tycsports_sd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2746,6 +2809,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tycsports_sd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -2754,18 +2818,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "75",
-                canalSuperior: "-",
+                canalSuperior: "75",
             }
         ],
     },
     {
         id: '95',
         nombre: 'Discovery Kids',
-        imagen: 'assets/icon_discoverykidshd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoverykidshd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2779,6 +2843,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoverykids_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2787,18 +2852,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "40",
-                canalSuperior: "-",
+                canalSuperior: "40",
             }
         ],
     },
     {
         id: '96',
         nombre: 'Disney Jr',
-        imagen: 'assets/icon_disneyjr_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_disneyjr_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2812,6 +2877,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_disneyjr_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2820,18 +2886,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "41",
-                canalSuperior: "-",
+                canalSuperior: "41",
             }
         ],
     },
     {
         id: '97',
         nombre: 'Nick Jr',
-        imagen: 'assets/icon_nickjr_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickjr_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2845,6 +2911,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickjr_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2853,18 +2920,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "42",
-                canalSuperior: "-",
+                canalSuperior: "42",
             }
         ],
     },
     {
         id: '98',
         nombre: 'Baby First TV',
-        imagen: 'assets/icon_babyfirsttv_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_babyfirsttv_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2878,6 +2945,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_babyfirsttv_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2886,18 +2954,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "43",
-                canalSuperior: "-",
+                canalSuperior: "43",
             }
         ],
     },
     {
         id: '99',
         nombre: 'Disney Channel',
-        imagen: 'assets/icon_disneychannel_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_disneychannel_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2911,6 +2979,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_disneychannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2919,18 +2988,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "44",
-                canalSuperior: "-",
+                canalSuperior: "44",
             }
         ],
     },
     {
         id: '100',
         nombre: 'Nickelodeon',
-        imagen: 'assets/icon_nickelodeon_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickelodeon_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2944,6 +3013,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickelodeon_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2952,18 +3022,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "45",
-                canalSuperior: "-",
+                canalSuperior: "45",
             }
         ],
     },
     {
         id: '101',
         nombre: 'Cartoon Network',
-        imagen: 'assets/icon_cartoonnetwork_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cartoonnetwork_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2977,6 +3047,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cartoonnetwork_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -2985,18 +3056,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "46",
-                canalSuperior: "-",
+                canalSuperior: "46",
             }
         ],
     },
     {
         id: '101',
         nombre: 'Cartoonito',
-        imagen: 'assets/icon_cartoonito_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cartoonito_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -3010,6 +3081,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cartoonito_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -3018,18 +3090,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "48",
-                canalSuperior: "-",
+                canalSuperior: "48",
             }
         ],
     },
     {
         id: '102',
         nombre: 'Nick Music',
-        imagen: 'assets/icon_nickmusic_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickmusic_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -3043,6 +3115,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickmusic_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -3051,18 +3124,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "92",
-                canalSuperior: "-",
+                canalSuperior: "92",
             }
         ],
     },
     {
         id: '103',
         nombre: 'Baby TV',
-        imagen: 'assets/icon_babytv_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_babytv_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -3076,6 +3149,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_babytv_sd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -3091,11 +3165,11 @@ var itemsCanales = [
     {
         id: '104',
         nombre: 'TeenNick',
-        imagen: 'assets/icon_teennick_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_teennick_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -3111,11 +3185,11 @@ var itemsCanales = [
     {
         id: '106',
         nombre: 'Discovery Turbo',
-        imagen: 'assets/icon_discoveryturbo_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoveryturbo_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3129,6 +3203,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoveryturbo_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -3137,18 +3212,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "239",
-                canalSuperior: "-",
+                canalSuperior: "239",
             }
         ],
     },
     {
         id: '107',
         nombre: 'World HD',
-        imagen: 'assets/icon_world_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_world_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3161,6 +3236,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_world_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -3177,11 +3253,11 @@ var itemsCanales = [
     {
         id: '108',
         nombre: 'Canal Claro',
-        imagen: 'assets/icon_canalclaro_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_canalclaro_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3195,6 +3271,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_canalclaro_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3203,18 +3280,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "200",
-                canalSuperior: "-",
+                canalSuperior: "200",
             }
         ],
     },
     {
         id: '109',
         nombre: 'ID Discovery',
-        imagen: 'assets/icon_iddiscovery_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_iddiscovery_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3228,6 +3305,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_iddiscovery_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3236,18 +3314,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "201",
-                canalSuperior: "-",
+                canalSuperior: "201",
             }
         ],
     },
     {
         id: '110',
         nombre: 'TLC',
-        imagen: 'assets/icon_tlc_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tlc_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3261,6 +3339,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tlc_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3269,18 +3348,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "202",
-                canalSuperior: "-",
+                canalSuperior: "202",
             }
         ],
     },
     {
         id: '111',
         nombre: 'Home & Health',
-        imagen: 'assets/icon_home&health_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_home&health_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3294,6 +3373,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_home&health_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3302,18 +3382,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "203",
-                canalSuperior: "-",
+                canalSuperior: "203",
             }
         ],
     },
     {
         id: '112',
         nombre: 'Food Network',
-        imagen: 'assets/icon_foodnetwork_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_foodnetwork_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3327,6 +3407,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_foodnetwork_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3335,18 +3416,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "204",
-                canalSuperior: "-",
+                canalSuperior: "204",
             }
         ],
     },
     {
         id: '113',
         nombre: 'El Gourmet',
-        imagen: 'assets/icon_elgourmet_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_elgourmet_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3360,6 +3441,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_elgourmet_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3368,18 +3450,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "205",
-                canalSuperior: "-",
+                canalSuperior: "205",
             }
         ],
     },
     {
         id: '114',
         nombre: 'Pasiones',
-        imagen: 'assets/icon_pasiones_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_pasiones_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3393,6 +3475,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_pasiones_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3401,18 +3484,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "217",
-                canalSuperior: "-",
+                canalSuperior: "217",
             }
         ],
     },
     {
         id: '115',
         nombre: 'MasChic',
-        imagen: 'assets/icon_maschic_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_maschic_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3426,6 +3509,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_maschic_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3434,7 +3518,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "207",
-                canalSuperior: "-",
+                canalSuperior: "207",
             }
         ],
     },
@@ -3446,6 +3530,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecaclic_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3459,6 +3544,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecaclic_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3467,18 +3553,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "211",
-                canalSuperior: "-",
+                canalSuperior: "211",
             }
         ],
     },
     {
         id: '117',
         nombre: 'E! Entertainment',
-        imagen: 'assets/icon_e!entertainment_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_e!entertainment_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3492,6 +3578,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_e!entertainment_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3500,18 +3587,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "209",
-                canalSuperior: "-",
+                canalSuperior: "209",
             }
         ],
     },
     {
         id: '118',
         nombre: 'Azteca Internacional',
-        imagen: 'assets/icon_aztecainternacional_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecainternacional_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3525,6 +3612,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecainternacional_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3533,18 +3621,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "212",
-                canalSuperior: "-",
+                canalSuperior: "212",
             }
         ],
     },
     {
         id: '119',
         nombre: 'Azteca Corazón',
-        imagen: 'assets/icon_aztecacorazon_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecacorazon_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3558,6 +3646,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecacorazon_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3566,18 +3655,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "213",
-                canalSuperior: "-",
+                canalSuperior: "213",
             }
         ],
     },
     {
         id: '120',
         nombre: 'Univision',
-        imagen: 'assets/icon_univision_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_univision_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3591,6 +3680,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_univision_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3599,18 +3689,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "214",
-                canalSuperior: "-",
+                canalSuperior: "214",
             }
         ],
     },
     {
         id: '121',
         nombre: 'Las Estrellas',
-        imagen: 'assets/icon_lasestrellas_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_lasestrellas_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3624,6 +3714,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_lasestrellas_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3631,19 +3722,19 @@ var itemsCanales = [
                         canales: '#530'
                     }
                 ],
-                canalAvanzado: "530",
-                canalSuperior: "-",
+                canalAvanzado: "215",
+                canalSuperior: "215",
             }
         ],
     },
     {
         id: '122',
         nombre: 'TL novelas',
-        imagen: 'assets/icon_tlnovelas_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tlnovelas_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3657,6 +3748,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tlnovelas_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3665,18 +3757,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "216",
-                canalSuperior: "-",
+                canalSuperior: "216",
             }
         ],
     },
     {
         id: '123',
         nombre: 'Sun Channel',
-        imagen: 'assets/icon_sunchannel_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_sunchannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3690,6 +3782,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_sunchannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3698,18 +3791,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "220",
-                canalSuperior: "-",
+                canalSuperior: "220",
             }
         ],
     },
     {
         id: '124',
         nombre: 'Telemundo',
-        imagen: 'assets/icon_telemundo_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_telemundo_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3723,6 +3816,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_telemundo_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3738,11 +3832,11 @@ var itemsCanales = [
     {
         id: '125',
         nombre: 'Adult swim',
-        imagen: 'assets/icon_adultswim_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_adultswim_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3755,6 +3849,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_adultswim_sd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -3771,11 +3866,11 @@ var itemsCanales = [
     {
         id: '126',
         nombre: 'WOBI',
-        imagen: 'assets/icon_wobi_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_wobi_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3789,6 +3884,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_wobi_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3804,11 +3900,11 @@ var itemsCanales = [
     {
         id: '126',
         nombre: 'TV Familia',
-        imagen: 'assets/icon_tvfamilia_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tvfamilia_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3822,6 +3918,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tvfamilia_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -3830,18 +3927,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "295",
-                canalSuperior: "-",
+                canalSuperior: "295",
             }
         ],
     },
     {
         id: '127',
         nombre: 'RCN Novelas',
-        imagen: 'assets/icon_rcnnovelas_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_rcnnovelas_sd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3850,18 +3947,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "221",
-                canalSuperior: "-",
+                canalSuperior: "221",
             }
         ],
     },
     {
         id: '127',
         nombre: 'Home & Health HD',
-        imagen: 'assets/icon_home&healthhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_home&healthhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3870,18 +3967,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "532",
-                canalSuperior: "-",
+                canalSuperior: "532",
             }
         ],
     },
     {
         id: '128',
         nombre: 'Canal Claro HD',
-        imagen: 'assets/icon_canalclaro_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_canalclaro_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3890,18 +3987,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "511",
-                canalSuperior: "-",
+                canalSuperior: "511",
             }
         ],
     },
     {
         id: '129',
         nombre: 'Pasiones HD',
-        imagen: 'assets/icon_canalclaro_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_canalclaro_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3910,18 +4007,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "529",
-                canalSuperior: "-",
+                canalSuperior: "529",
             }
         ],
     },
     {
         id: '130',
         nombre: 'Las Estrellas HD',
-        imagen: 'assets/icon_lasestrellashd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_lasestrellashd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3930,18 +4027,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "530",
-                canalSuperior: "-",
+                canalSuperior: "530",
             }
         ],
     },
     {
         id: '130',
         nombre: 'MasChic HD',
-        imagen: 'assets/icon_maschichd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_maschichd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3950,38 +4047,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "533",
-                canalSuperior: "-",
-            }
-        ],
-    },
-    {
-        id: '130',
-        nombre: 'MasChic HD',
-        imagen: 'assets/icon_maschichd_hd.png',
-        servicio: [
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Variados',
-                        tipo: 'HD',
-                        canales: '#533'
-                    }
-                ],
-                canalAvanzado: "533",
-                canalSuperior: "-",
+                canalSuperior: "533",
             }
         ],
     },
     {
         id: '131',
         nombre: 'ID Discovery HD',
-        imagen: 'assets/icon_iddiscoveryhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_iddiscoveryhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -3990,18 +4067,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "534",
-                canalSuperior: "-",
+                canalSuperior: "534",
             }
         ],
     },
     {
         id: '132',
         nombre: 'Inti HD',
-        imagen: 'assets/icon_intihd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_intihd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -4010,18 +4087,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "538",
-                canalSuperior: "-",
+                canalSuperior: "538",
             }
         ],
     },
     {
         id: '133',
         nombre: 'El Gourmet HD',
-        imagen: 'assets/icon_elgourmethd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_elgourmethd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -4030,18 +4107,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "539",
-                canalSuperior: "-",
+                canalSuperior: "539",
             }
         ],
     },
     {
         id: '134',
         nombre: 'Food Network HD',
-        imagen: 'assets/icon_foodnetworkhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_foodnetworkhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -4050,18 +4127,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "548",
-                canalSuperior: "-",
+                canalSuperior: "548",
             }
         ],
     },
     {
         id: '135',
         nombre: 'Univision HD',
-        imagen: 'assets/icon_univisionhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_univisionhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -4070,18 +4147,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "564",
-                canalSuperior: "-",
+                canalSuperior: "564",
             }
         ],
     },
     {
         id: '136',
         nombre: 'Azteca Clic HD',
-        imagen: 'assets/icon_aztecaclichd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_aztecaclichd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -4090,18 +4167,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "565",
-                canalSuperior: "-",
+                canalSuperior: "565",
             }
         ],
     },
     {
         id: '137',
         nombre: 'TLC HD',
-        imagen: 'assets/icon_tlchd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tlchd_hd.png',
                 categoria: [
                     {
                         nombre: 'Variados',
@@ -4110,18 +4187,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "579",
-                canalSuperior: "-",
+                canalSuperior: "579",
             }
         ],
     },
     {
         id: '138',
         nombre: 'Claro Música Sin Límites',
-        imagen: 'assets/icon_claromusicasinlimites_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_claromusicasinlimites_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4135,6 +4212,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_claromusicasinlimites_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4143,18 +4221,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "90",
-                canalSuperior: "-",
+                canalSuperior: "90",
             }
         ],
     },
     {
         id: '139',
         nombre: 'Concert Channel',
-        imagen: 'assets/icon_concertchannel_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_concertchannel_hd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4168,6 +4246,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_concertchannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4176,18 +4255,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "91",
-                canalSuperior: "-",
+                canalSuperior: "91",
             }
         ],
     },
     {
         id: '140',
         nombre: 'Concert Channel HD',
-        imagen: 'assets/icon_concertchannel_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_concertchannel_hd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4196,18 +4275,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "583",
-                canalSuperior: "-",
+                canalSuperior: "583",
             }
         ],
     },
     {
         id: '141',
         nombre: 'MTV HITS',
-        imagen: 'assets/icon_mtvhots_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_mtvhots_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4221,6 +4300,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_mtvhots_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4236,11 +4316,11 @@ var itemsCanales = [
     {
         id: '142',
         nombre: 'MTV 80s',
-        imagen: 'assets/icon_mtv80s_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_mtv80s_hd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4253,6 +4333,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_mtv80s_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -4269,11 +4350,11 @@ var itemsCanales = [
     {
         id: '143',
         nombre: 'HTV',
-        imagen: 'assets/icon_htv_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_htv_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4286,6 +4367,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_htv_sd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -4302,11 +4384,11 @@ var itemsCanales = [
     {
         id: '144',
         nombre: 'Telehit Música Plus',
-        imagen: 'assets/icon_telehitmusicaplus_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_telehitmusicaplus_hd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4322,11 +4404,11 @@ var itemsCanales = [
     {
         id: '145',
         nombre: 'MTV Live',
-        imagen: 'assets/icon_mtvlive_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_mtvlive_hd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4342,11 +4424,11 @@ var itemsCanales = [
     {
         id: '146',
         nombre: 'MTV 00s',
-        imagen: 'assets/icon_mtv00s_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_mtv00s_sd.png',
                 categoria: [
                     {
                         nombre: 'Musicales',
@@ -4362,10 +4444,10 @@ var itemsCanales = [
     {
         id: '147',
         nombre: 'MTV Live HD',
-        imagen: 'assets/icon_mtvlivehd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_mtvlivehd_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -4382,10 +4464,10 @@ var itemsCanales = [
     {
         id: '148',
         nombre: 'TELEHIT MÚSICA PLUS HD',
-        imagen: 'assets/icon_telehitmusicaplushd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_telehitmusicaplushd_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -4402,10 +4484,10 @@ var itemsCanales = [
     {
         id: '149',
         nombre: 'MTV 00s HD',
-        imagen: 'assets/icon_mtv00shd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_mtv00shd_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -4420,33 +4502,13 @@ var itemsCanales = [
         ],
     },
     {
-        id: '150',
-        nombre: 'Concert Channel HD',
-        imagen: 'assets/icon_concertchannel_hd.png',
-        servicio: [
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Musicales',
-                        tipo: 'HD',
-                        canales: '#583'
-                    }
-                ],
-                canalAvanzado: "583",
-                canalSuperior: "-",
-            }
-        ],
-    },
-    {
         id: '151',
         nombre: 'María Visión',
-        imagen: 'assets/icon_marivision_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_marivision_hd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4460,6 +4522,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_marivision_hd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4468,18 +4531,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "296",
-                canalSuperior: "-",
+                canalSuperior: "296",
             }
         ],
     },
     {
         id: '152',
         nombre: 'Bethel',
-        imagen: 'assets/icon_bethel_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_bethel_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4493,6 +4556,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_bethel_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4501,18 +4565,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "290",
-                canalSuperior: "-",
+                canalSuperior: "290",
             }
         ],
     },
     {
         id: '153',
         nombre: 'Enlace',
-        imagen: 'assets/icon_enlace_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_enlace_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4526,6 +4590,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_enlace_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4534,18 +4599,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "291",
-                canalSuperior: "-",
+                canalSuperior: "291",
             }
         ],
     },
     {
         id: '154',
         nombre: '3 ABN',
-        imagen: 'assets/icon_3abn_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_3abn_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4559,6 +4624,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_3abn_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4567,18 +4633,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "292",
-                canalSuperior: "-",
+                canalSuperior: "292",
             }
         ],
     },
     {
         id: '155',
         nombre: 'EWTN',
-        imagen: 'assets/icon_ewtn_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_ewtn_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4592,6 +4658,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_ewtn_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4600,18 +4667,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "293",
-                canalSuperior: "-",
+                canalSuperior: "193",
             }
         ],
     },
     {
         id: '156',
         nombre: 'ESNE',
-        imagen: 'assets/icon_esne_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_esne_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4625,6 +4692,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_esne_sd.png',
                 categoria: [
                     {
                         nombre: 'Religiosos',
@@ -4633,18 +4701,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "294",
-                canalSuperior: "-",
+                canalSuperior: "294",
             }
         ],
     },
     {
         id: '157',
         nombre: 'Caracol',
-        imagen: 'assets/icon_caracol_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_caracol_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4658,6 +4726,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_caracol_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4666,18 +4735,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "263",
-                canalSuperior: "-",
+                canalSuperior: "263",
             }
         ],
     },
     {
         id: '158',
         nombre: 'El Trece',
-        imagen: 'assets/icon_eltrece_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_eltrece_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4691,6 +4760,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_eltrece_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4699,18 +4769,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "261",
-                canalSuperior: "-",
+                canalSuperior: "261",
             }
         ],
     },
     {
         id: '159',
         nombre: 'TELEFE Internacional',
-        imagen: 'assets/icon_telefeinternacional_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_telefeinternacional_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4724,6 +4794,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_telefeinternacional_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4732,18 +4803,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "260",
-                canalSuperior: "-",
+                canalSuperior: "260",
             }
         ],
     },
     {
         id: '160',
         nombre: 'CCTV4',
-        imagen: 'assets/icon_cctv4_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cctv4_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4757,6 +4828,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cctv4_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4765,18 +4837,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "271",
-                canalSuperior: "-",
+                canalSuperior: "271",
             }
         ],
     },
     {
         id: '161',
         nombre: 'TV5 Monde',
-        imagen: 'assets/icon_tv5monde_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tv5monde_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4790,6 +4862,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tv5monde_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4798,18 +4871,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "273",
-                canalSuperior: "-",
+                canalSuperior: "273",
             }
         ],
     },
     {
         id: '162',
         nombre: 'TVE',
-        imagen: 'assets/icon_tve_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tve_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4823,6 +4896,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tve_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4831,18 +4905,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "264",
-                canalSuperior: "-",
+                canalSuperior: "264",
             }
         ],
     },
     {
         id: '163',
         nombre: 'Inti',
-        imagen: 'assets/icon_inti_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_inti_hd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4856,6 +4930,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_inti_hd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4864,18 +4939,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "266",
-                canalSuperior: "-",
+                canalSuperior: "266",
             }
         ],
     },
     {
         id: '164',
         nombre: 'DW (Español)',
-        imagen: 'assets/icon_dw_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_dw_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4889,6 +4964,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_dw_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4897,18 +4973,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "268",
-                canalSuperior: "-",
+                canalSuperior: "268",
             }
         ],
     },
     {
         id: '165',
         nombre: 'TVN',
-        imagen: 'assets/icon_tvn_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tvn_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4922,6 +4998,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tvn_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4930,18 +5007,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "262",
-                canalSuperior: "-",
+                canalSuperior: "262",
             }
         ],
     },
     {
         id: '166',
         nombre: 'France 24 - Español',
-        imagen: 'assets/France-24-Espanol.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/France-24-Espanol.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4955,6 +5032,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/France-24-Espanol.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -4963,18 +5041,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "252",
-                canalSuperior: "-",
+                canalSuperior: "252",
             }
         ],
     },
     {
         id: '167',
         nombre: 'NHK World',
-        imagen: 'assets/icon_nhkworld_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nhkworld_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4988,6 +5066,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nhkworld_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -4996,18 +5075,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "272",
-                canalSuperior: "-",
+                canalSuperior: "272",
             }
         ],
     },
     {
         id: '168',
         nombre: 'France 24 - Francés',
-        imagen: 'assets/icon_france24frances_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_france24frances_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -5021,6 +5100,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_france24frances_sd.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -5029,18 +5109,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "276",
-                canalSuperior: "-",
+                canalSuperior: "276",
             }
         ],
     },
     {
         id: '170',
         nombre: 'ARIRANG',
-        imagen: 'assets/icon_arirang_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_arirang_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -5053,6 +5133,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_arirang_sd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -5069,11 +5150,11 @@ var itemsCanales = [
     {
         id: '171',
         nombre: 'TELESUR',
-        imagen: 'assets/icon_telesur_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_telesur_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -5086,6 +5167,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_telesur_sd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -5102,11 +5184,11 @@ var itemsCanales = [
     {
         id: '173',
         nombre: 'ANTENA 3',
-        imagen: 'assets/icon_antena3_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_antena3_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -5120,6 +5202,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_antena3_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -5135,11 +5218,11 @@ var itemsCanales = [
     {
         id: '174',
         nombre: 'TV GLOBO',
-        imagen: 'assets/icon_tvglobo_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_tvglobo_sd.png',
                 categoria: [
                     {
                         nombre: 'Internacionales',
@@ -5152,6 +5235,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_tvglobo_sd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -5168,11 +5252,11 @@ var itemsCanales = [
     {
         id: '175',
         nombre: 'Discovery Channel HD',
-        imagen: 'assets/icon_discoverychannel_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoverychannel_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5186,6 +5270,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoverychannel_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -5194,18 +5279,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "541",
-                canalSuperior: "-",
+                canalSuperior: "541",
             }
         ],
     },
     {
         id: '176',
         nombre: 'Animal Planet HD',
-        imagen: 'assets/icon_animalplanet_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_animalplanet_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5219,6 +5304,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_animalplanet_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -5227,18 +5313,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "543",
-                canalSuperior: "-",
+                canalSuperior: "543",
             }
         ],
     },
     {
         id: '177',
         nombre: 'Love Nature',
-        imagen: 'assets/icon_lovenature_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_lovenature_sd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -5254,11 +5340,11 @@ var itemsCanales = [
     {
         id: '178',
         nombre: 'Love Nature HD',
-        imagen: 'assets/icon_lovenature_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_lovenature_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5272,6 +5358,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_lovenature_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -5280,18 +5367,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "542",
-                canalSuperior: "-",
+                canalSuperior: "542",
             },
         ],
     },
     {
         id: '179',
         nombre: 'National Geographic',
-        imagen: 'assets/icon_nationalgeopgraphic_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nationalgeopgraphic_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5305,26 +5392,27 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nationalgeographic_sd.png',
                 categoria: [
                     {
-                        nombre: 'Factural',
+                        nombre: 'Factual',
                         tipo: 'SD',
                         canales: '#232'
                     }
                 ],
                 canalAvanzado: "232",
-                canalSuperior: "-",
+                canalSuperior: "232",
             }
         ],
     },
     {
         id: '179',
         nombre: 'History',
-        imagen: 'assets/icon_history_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_history_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5338,6 +5426,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_history_sd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -5346,18 +5435,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "236",
-                canalSuperior: "-",
+                canalSuperior: "236",
             }
         ],
     },
     {
         id: '180',
         nombre: 'H2',
-        imagen: 'assets/icon_h2_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_h2_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5371,6 +5460,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_h2_sd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -5379,18 +5469,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "237",
-                canalSuperior: "-",
+                canalSuperior: "237",
             }
         ],
     },
     {
         id: '181',
         nombre: 'HGTV',
-        imagen: 'assets/icon_hgtv_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_hgtv_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5403,6 +5493,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_hgtv_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -5412,18 +5503,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "-",
-                canalSuperior: "239",
+                canalSuperior: "240",
             }
         ],
     },
     {
         id: '182',
         nombre: 'Discovery Science',
-        imagen: 'assets/icon_discoveryscience_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_discoveryscience_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5436,6 +5527,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_discoveryscience_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -5452,11 +5544,11 @@ var itemsCanales = [
     {
         id: '183',
         nombre: 'HD Theater',
-        imagen: 'assets/icon_hdtheater_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_hdtheater_hd.png',
                 categoria: [
                     {
                         nombre: 'Cultura',
@@ -5469,6 +5561,7 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_hdtheater_hd.png',
                 paquete: ['Tv Superior'],
                 categoria: [
                     {
@@ -5485,11 +5578,11 @@ var itemsCanales = [
     {
         id: '184',
         nombre: 'TV Cosmos',
-        imagen: 'assets/icon_tvcosmos_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tvcosmos_sd.png',
                 categoria: [
                     {
                         nombre: 'Regional',
@@ -5518,11 +5611,11 @@ var itemsCanales = [
     {
         id: '185',
         nombre: 'América Trujillo',
-        imagen: 'assets/icon_americatrujillo.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_americatrujillo.png',
                 categoria: [
                     {
                         nombre: 'Locales',
@@ -5531,18 +5624,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "29",
-                canalSuperior: "-",
+                canalSuperior: "29",
             }
         ],
     },
     {
         id: '186',
         nombre: 'France 24 HD -Español',
-        imagen: 'assets/icon_france24espanol_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_france24espanol_hd.png',
                 categoria: [
                     {
                         nombre: 'Noticias',
@@ -5551,18 +5644,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "537",
-                canalSuperior: "-",
+                canalSuperior: "537",
             }
         ],
     },
     {
         id: '187',
         nombre: 'USA HD',
-        imagen: 'assets/icon_usa_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_usa_hd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -5571,17 +5664,17 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "555",
-                canalSuperior: "-",
+                canalSuperior: "555",
             }
         ],
     },
     {
         id: '188',
         nombre: 'Comedy Central HD',
-        imagen: 'assets/icon_comedycentralhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_comedycentralhd_hd.png',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
                 categoria: [
                     {
@@ -5591,18 +5684,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "557",
-                canalSuperior: "-",
+                canalSuperior: "557",
             }
         ],
     },
     {
         id: '189',
         nombre: 'MTV HD',
-        imagen: 'assets/icon_mtvhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_mtvhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Series',
@@ -5611,18 +5704,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "559",
-                canalSuperior: "-",
+                canalSuperior: "559",
             }
         ],
     },
     {
         id: '190',
         nombre: 'Paramount HD',
-        imagen: 'assets/icon_paramounthd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_paramounthd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5631,18 +5724,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "589",
-                canalSuperior: "-",
+                canalSuperior: "589",
             }
         ],
     },
     {
         id: '191',
         nombre: 'TNT HD',
-        imagen: 'assets/icon_tnthd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tnthd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5651,18 +5744,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "590",
-                canalSuperior: "-",
+                canalSuperior: "590",
             }
         ],
     },
     {
         id: '192',
         nombre: 'TNT HD',
-        imagen: 'assets/Cinecanal HD.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/Cinecanal HD.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5671,18 +5764,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "591",
-                canalSuperior: "-",
+                canalSuperior: "591",
             }
         ],
     },
     {
         id: '193',
         nombre: 'Golden PLUS HD',
-        imagen: 'assets/icon_goldenplushd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_goldenplushd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5698,11 +5791,11 @@ var itemsCanales = [
     {
         id: '194',
         nombre: 'AMC HD',
-        imagen: 'assets/icon_amchd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_amchd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5711,18 +5804,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "593",
-                canalSuperior: "-",
+                canalSuperior: "593",
             }
         ],
     },
     {
         id: '195',
         nombre: 'Space HD',
-        imagen: 'assets/icon_spacehd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_spacehd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5731,18 +5824,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "594",
-                canalSuperior: "-",
+                canalSuperior: "594",
             }
         ],
     },
     {
         id: '196',
         nombre: 'FX HD',
-        imagen: 'assets/icon_fxhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_fxhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5751,18 +5844,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "595",
-                canalSuperior: "-",
+                canalSuperior: "595",
             }
         ],
     },
     {
         id: '196',
         nombre: 'Sony Movies HD',
-        imagen: 'assets/icon_fxhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_fxhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5771,18 +5864,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "596",
-                canalSuperior: "-",
+                canalSuperior: "596",
             }
         ],
     },
     {
         id: '197',
         nombre: 'DHE HD',
-        imagen: 'assets/icon_dhehd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_dhehd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5798,11 +5891,11 @@ var itemsCanales = [
     {
         id: '198',
         nombre: 'De Película Plus HD',
-        imagen: 'assets/icon_depleiculaplushd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_depleiculaplushd_hd.png',
                 categoria: [
                     {
                         nombre: 'Películas',
@@ -5818,10 +5911,10 @@ var itemsCanales = [
     {
         id: '199',
         nombre: 'Adrenalina Sports Network',
-        imagen: 'assets/icon_adrenalinasports_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_adrenalinasports_sd.png',
                 paquete: [],
                 categoria: [
                     {
@@ -5838,10 +5931,10 @@ var itemsCanales = [
     {
         id: '200',
         nombre: 'L1 MAX HD',
-        imagen: 'assets/icon_l1maxhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_l1maxhd_hd.png',
                 paquete: [],
                 categoria: [
                     {
@@ -5858,11 +5951,11 @@ var itemsCanales = [
     {
         id: '201',
         nombre: 'Claro Sports HD',
-        imagen: 'assets/icon_clarosportshd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_clarosportshd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5871,18 +5964,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "518",
-                canalSuperior: "-",
+                canalSuperior: "518",
             }
         ],
     },
     {
         id: '202',
         nombre: 'ESPN HD',
-        imagen: 'assets/icon_espnhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espnhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5891,18 +5984,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "519",
-                canalSuperior: "-",
+                canalSuperior: "519",
             }
         ],
     },
     {
         id: '203',
         nombre: 'ESPN 2 HD',
-        imagen: 'assets/icon_espn2hd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn2hd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5911,18 +6004,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "520",
-                canalSuperior: "-",
+                canalSuperior: "520",
             }
         ],
     },
     {
         id: '204',
         nombre: 'ESPN 3 HD',
-        imagen: 'assets/icon_espn3_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn3_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5931,18 +6024,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "521",
-                canalSuperior: "-",
+                canalSuperior: "521",
             }
         ],
     },
     {
         id: '205',
         nombre: 'ESPN 4 HD',
-        imagen: 'assets/icon_espn4hd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Superior'],
+                imagen: 'assets/icon_espn4hd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5950,7 +6043,7 @@ var itemsCanales = [
                         canales: '#522'
                     }
                 ],
-                canalAvanzado: "-",
+                canalAvanzado: "522",
                 canalSuperior: "522",
             }
         ],
@@ -5958,11 +6051,11 @@ var itemsCanales = [
     {
         id: '206',
         nombre: 'ESPN 5 HD',
-        imagen: 'assets/icon_espn5hd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn5hd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5971,18 +6064,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "523",
-                canalSuperior: "-",
+                canalSuperior: "523",
             }
         ],
     },
     {
         id: '207',
         nombre: 'ESPN 6 HD',
-        imagen: 'assets/icon_espn6hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn6hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -5991,18 +6084,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "524",
-                canalSuperior: "-",
+                canalSuperior: "524",
             }
         ],
     },
     {
         id: '208',
         nombre: 'ESPN 7 HD',
-        imagen: 'assets/icon_espn7_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_espn7_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -6011,18 +6104,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "525",
-                canalSuperior: "-",
+                canalSuperior: "525",
             }
         ],
     },
     {
         id: '209',
         nombre: 'L1 HD',
-        imagen: 'assets/icon_l1hd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_l1hd_hd.png',
                 categoria: [
                     {
                         nombre: 'Deportes',
@@ -6031,18 +6124,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "#527",
-                canalSuperior: "-",
+                canalSuperior: "527",
             }
         ],
     },
     {
         id: '210',
         nombre: 'Discovery Kids HD',
-        imagen: 'assets/icon_discoverykidshd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoverykidshd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -6051,18 +6144,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "572",
-                canalSuperior: "-",
+                canalSuperior: "572",
             }
         ],
     },
     {
         id: '211',
         nombre: 'Cartoon Network HD',
-        imagen: 'assets/icon_cartoonnetworkhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_cartoonnetworkhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -6071,18 +6164,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "573",
-                canalSuperior: "-",
+                canalSuperior: "573",
             }
         ],
     },
     {
         id: '212',
         nombre: 'Disney Channel HD',
-        imagen: 'assets/icon_disneychannelhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_disneychannelhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -6091,18 +6184,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "574",
-                canalSuperior: "-",
+                canalSuperior: "574",
             }
         ],
     },
     {
         id: '213',
         nombre: 'Nick Jr HD',
-        imagen: 'assets/icon_nickjrhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickjrhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -6111,18 +6204,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "575",
-                canalSuperior: "-",
+                canalSuperior: "575",
             }
         ],
     },
     {
         id: '214',
         nombre: 'Nickelodeon HD',
-        imagen: 'assets/icon_nickelodeonhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nickelodeonhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -6131,18 +6224,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "576",
-                canalSuperior: "-",
+                canalSuperior: "576",
             }
         ],
     },
     {
         id: '215',
         nombre: 'TeenNick HD',
-        imagen: 'assets/icon_teenickhd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_teenickhd_hd.png',
                 categoria: [
                     {
                         nombre: 'Infantiles',
@@ -6151,18 +6244,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "577",
-                canalSuperior: "-",
+                canalSuperior: "577",
             }
         ],
     },
     {
         id: '181',
         nombre: 'Discovery Channel',
-        imagen: 'assets/icon_discoverychannel_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_discoverychannel_sd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -6171,18 +6264,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "230",
-                canalSuperior: "-",
+                canalSuperior: "230",
             }
         ],
     },
     {
         id: '182',
         nombre: 'Animal Planet',
-        imagen: 'assets/icon_animalplanet_sd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_animalplanet_sd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -6191,38 +6284,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "231",
-                canalSuperior: "-",
-            }
-        ],
-    },
-    {
-        id: '183',
-        nombre: 'Animal Planet',
-        imagen: 'assets/icon_animalplanet_sd.png',
-        servicio: [
-            {
-                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Factual',
-                        tipo: 'SD',
-                        canales: '#231'
-                    }
-                ],
-                canalAvanzado: "231",
-                canalSuperior: "-",
+                canalSuperior: "231",
             }
         ],
     },
     {
         id: '184',
         nombre: 'History HD',
-        imagen: 'assets/icon_history_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_history_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -6231,18 +6304,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "544",
-                canalSuperior: "-",
+                canalSuperior: "544",
             }
         ],
     },
     {
         id: '185',
         nombre: 'National Geographic HD',
-        imagen: 'assets/icon_nationalgeographichd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_nationalgeographichd_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -6251,18 +6324,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "546",
-                canalSuperior: "-",
+                canalSuperior: "546",
             }
         ],
     },
     {
         id: '186',
         nombre: 'H2 HD',
-        imagen: 'assets/icon_h2hd_hd.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_h2hd_hd.png',
                 categoria: [
                     {
                         nombre: 'Factual',
@@ -6271,18 +6344,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "547",
-                canalSuperior: "-",
+                canalSuperior: "547",
             }
         ],
     },
     {
         id: '187',
         nombre: 'Galaxy 01 - CLÁSICOS INSTRUMENTALES',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6291,18 +6364,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "800",
-                canalSuperior: "-",
+                canalSuperior: "800",
             }
         ],
     },
     {
         id: '188',
         nombre: 'Galaxy 02 - ÓPERA',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6311,18 +6384,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "801",
-                canalSuperior: "-",
+                canalSuperior: "801",
             }
         ],
     },
     {
         id: '189',
         nombre: 'Galaxy 03 - GROOVE LOUNGE',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6331,18 +6404,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "802",
-                canalSuperior: "-",
+                canalSuperior: "802",
             }
         ],
     },
     {
         id: '190',
         nombre: 'Galaxy 04 - JAZZ CLÁSICO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6351,18 +6424,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "803",
-                canalSuperior: "-",
+                canalSuperior: "803",
             }
         ],
     },
     {
         id: '191',
         nombre: 'Galaxy 05 - ROCK ALTERNATIVO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6371,18 +6444,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "804",
-                canalSuperior: "-",
+                canalSuperior: "804",
             }
         ],
     },
     {
         id: '192',
         nombre: 'Galaxy 06 - ÉXITOS DE LOS 90',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6391,18 +6464,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "805",
-                canalSuperior: "-",
+                canalSuperior: "805",
             }
         ],
     },
     {
         id: '193',
         nombre: 'Galaxy 07 - ROCK PESADO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6411,18 +6484,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "806",
-                canalSuperior: "-",
+                canalSuperior: "806",
             }
         ],
     },
     {
         id: '194',
         nombre: 'Galaxy 08 - ÉXITOS DE LOS 70',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6431,18 +6504,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "807",
-                canalSuperior: "-",
+                canalSuperior: "807",
             }
         ],
     },
     {
         id: '195',
         nombre: 'Galaxy 09 - ÉXITOS DE LOS 80',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6451,18 +6524,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "808",
-                canalSuperior: "-",
+                canalSuperior: "808",
             }
         ],
     },
     {
         id: '196',
         nombre: 'Galaxy 10 - ÉXITOS ROMÁNTICOS',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6471,18 +6544,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "809",
-                canalSuperior: "-",
+                canalSuperior: "809",
             }
         ],
     },
     {
         id: '197',
         nombre: 'Galaxy 11 - MÚSICA TROPICAL',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6491,18 +6564,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "810",
-                canalSuperior: "-",
+                canalSuperior: "810",
             }
         ],
     },
     {
         id: '198',
         nombre: 'Galaxy 12 - POP JUVENIL',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6511,18 +6584,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "811",
-                canalSuperior: "-",
+                canalSuperior: "811",
             }
         ],
     },
     {
         id: '198',
         nombre: 'Galaxy 13 - TOP 40 BRASIL',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6531,18 +6604,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "812",
-                canalSuperior: "-",
+                canalSuperior: "812",
             }
         ],
     },
     {
         id: '199',
         nombre: 'Galaxy 14 - ROCK CLÁSICO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6551,7 +6624,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "813",
-                canalSuperior: "-",
+                canalSuperior: "813",
             }
         ],
     },
@@ -6563,6 +6636,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6571,18 +6645,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "814",
-                canalSuperior: "-",
+                canalSuperior: "814",
             }
         ],
     },
     {
         id: '201',
         nombre: 'Galaxy 16 - ÉXITOS EN INGLÉS',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6591,18 +6665,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "815",
-                canalSuperior: "-",
+                canalSuperior: "815",
             }
         ],
     },
     {
         id: '202',
         nombre: 'Galaxy 17 - DANCE',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6611,18 +6685,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "816",
-                canalSuperior: "-",
+                canalSuperior: "816",
             }
         ],
     },
     {
         id: '203',
         nombre: 'Galaxy 18 - R&B CLÁSICO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6631,18 +6705,19 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "817",
-                canalSuperior: "-",
+                canalSuperior: "817",
             }
         ],
     },
     {
         id: '204',
         nombre: 'Galaxy 19 - MOVIETRAXX',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6651,18 +6726,19 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "818",
-                canalSuperior: "-",
+                canalSuperior: "818",
             }
         ],
     },
     {
         id: '205',
         nombre: 'Galaxy 20 - JAZZ LATINO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6671,18 +6747,19 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "819",
-                canalSuperior: "-",
+                canalSuperior: "819",
             }
         ],
     },
     {
         id: '206',
         nombre: 'Galaxy 21 - ÉXITOS DE LOS 50',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6691,18 +6768,19 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "820",
-                canalSuperior: "-",
+                canalSuperior: "820",
             }
         ],
     },
     {
         id: '207',
         nombre: 'Galaxy 22 - MÚSICA POPULAR BRASILERA',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6711,18 +6789,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "821",
-                canalSuperior: "-",
+                canalSuperior: "821",
             }
         ],
     },
     {
         id: '208',
         nombre: 'Galaxy 23 - SAMBA & PAGODE',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6731,18 +6809,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "822",
-                canalSuperior: "-",
+                canalSuperior: "822",
             }
         ],
     },
     {
         id: '209',
         nombre: 'Galaxy 24 - ROCK & POP BRASIL',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6751,18 +6829,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "823",
-                canalSuperior: "-",
+                canalSuperior: "823",
             }
         ],
     },
     {
         id: '210',
         nombre: 'Galaxy 25 - NEW AGE',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6771,18 +6849,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "824",
-                canalSuperior: "-",
+                canalSuperior: "824",
             }
         ],
     },
     {
         id: '211',
         nombre: 'Galaxy 26 - ROCK LATINO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6791,18 +6869,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "825",
-                canalSuperior: "-",
+                canalSuperior: "825",
             }
         ],
     },
     {
         id: '212',
         nombre: 'Galaxy 27 - REGIONAL MEXICANA',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6811,18 +6889,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "826",
-                canalSuperior: "-",
+                canalSuperior: "826",
             }
         ],
     },
     {
         id: '213',
         nombre: 'Galaxy 28 - POWER HITS',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6831,18 +6909,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "827",
-                canalSuperior: "-",
+                canalSuperior: "827",
             }
         ],
     },
     {
         id: '214',
         nombre: 'Galaxy 29 - MARIACHI',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6851,17 +6929,17 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "828",
-                canalSuperior: "-",
+                canalSuperior: "828",
             }
         ],
     },
     {
         id: '215',
         nombre: 'Galaxy 30 - GRANDES ORQUESTAS',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                imagen: 'assets/icon_galaxy_music.png',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
                 categoria: [
                     {
@@ -6871,18 +6949,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "829",
-                canalSuperior: "-",
+                canalSuperior: "829",
             }
         ],
     },
     {
         id: '216',
         nombre: 'Galaxy 31 - GRANDES CANTANTES',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6891,18 +6969,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "830",
-                canalSuperior: "-",
+                canalSuperior: "830",
             }
         ],
     },
     {
         id: '217',
         nombre: 'Galaxy 32 - TANGO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6911,18 +6989,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "831",
-                canalSuperior: "-",
+                canalSuperior: "831",
             }
         ],
     },
     {
         id: '218',
         nombre: 'Galaxy 33 - RITMOS DEL MUNDO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6931,18 +7009,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "832",
-                canalSuperior: "-",
+                canalSuperior: "832",
             }
         ],
     },
     {
         id: '219',
         nombre: 'Galaxy 34 - SINFÓNICA',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6951,18 +7029,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "833",
-                canalSuperior: "-",
+                canalSuperior: "833",
             }
         ],
     },
     {
         id: '220',
         nombre: 'Galaxy 35 - ÉXITOS EN ITALIANO',
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6971,18 +7049,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "834",
-                canalSuperior: "-",
+                canalSuperior: "834",
             }
         ],
     },
     {
         id: '221',
         nombre: "Galaxy 36 - CLÁSICOS DEL ROCK 'N' ROLL",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -6991,18 +7069,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "835",
-                canalSuperior: "-",
+                canalSuperior: "835",
             }
         ],
     },
     {
         id: '222',
         nombre: "Galaxy 37 - RITMOS DEL CARIBE",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7011,18 +7089,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "836",
-                canalSuperior: "-",
+                canalSuperior: "836",
             }
         ],
     },
     {
         id: '223',
         nombre: "Galaxy 38 - MÚSICA DE LAS AMÉRICAS",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7031,18 +7109,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "837",
-                canalSuperior: "-",
+                canalSuperior: "837",
             }
         ],
     },
     {
         id: '224',
         nombre: "Galaxy 39 - LATIN LOUNGE",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7051,18 +7129,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "838",
-                canalSuperior: "-",
+                canalSuperior: "838",
             }
         ],
     },
     {
         id: '225',
         nombre: "Galaxy 40 - BLUES",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7071,18 +7149,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "839",
-                canalSuperior: "-",
+                canalSuperior: "839",
             }
         ],
     },
     {
         id: '226',
         nombre: "Galaxy 42 - ADULTO CONTEMPORÁNEA",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7091,18 +7169,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "841",
-                canalSuperior: "-",
+                canalSuperior: "841",
             }
         ],
     },
     {
         id: '227',
         nombre: "Galaxy 43 - REGGAETON",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7111,18 +7189,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "842",
-                canalSuperior: "-",
+                canalSuperior: "842",
             }
         ],
     },
     {
         id: '228',
         nombre: "Galaxy 44 - NEW WAVE",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7131,18 +7209,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "843",
-                canalSuperior: "-",
+                canalSuperior: "843",
             }
         ],
     },
     {
         id: '229',
         nombre: "Galaxy 45 - SALSA Y MERENGUE",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7151,18 +7229,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "844",
-                canalSuperior: "-",
+                canalSuperior: "844",
             }
         ],
     },
     {
         id: '230',
         nombre: "Galaxy 46 - DISCO ",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7171,18 +7249,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "845",
-                canalSuperior: "-",
+                canalSuperior: "845",
             }
         ],
     },
     {
         id: '231',
         nombre: "Galaxy 47 - ÉXITOS EN ESPAÑOL",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7191,18 +7269,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "846",
-                canalSuperior: "-",
+                canalSuperior: "846",
             }
         ],
     },
     {
         id: '232',
         nombre: "Galaxy 48 - ÉXITOS EUROPEOS",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7211,18 +7289,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "847",
-                canalSuperior: "-",
+                canalSuperior: "847",
             }
         ],
     },
     {
         id: '233',
         nombre: "Galaxy 49 - PIANO",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7231,18 +7309,18 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "848",
-                canalSuperior: "-",
+                canalSuperior: "848",
             }
         ],
     },
     {
         id: '234',
         nombre: "Galaxy 50 - BALADAS EN ESPAÑOL",
-        imagen: 'assets/icon_galaxy_music.png',
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_galaxy_music.png',
                 categoria: [
                     {
                         nombre: 'Audio',
@@ -7251,7 +7329,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "849",
-                canalSuperior: "-",
+                canalSuperior: "849",
             }
         ],
     },
@@ -7355,7 +7433,8 @@ function updateCanales() {
                                 nombre: item.nombre,
                                 tipo: cat.tipo,
                                 canales: cat.canales,
-                                imagen: item.imagen
+                                /*imagen: item.imagen*/
+                                imagen: serv.imagen
                             });
                         }
                     });
@@ -7634,7 +7713,7 @@ var itemsPaquetes = [
                 ]
             },
             {
-                nombre: 'HotPack HD',
+                nombre: 'HotPack',
                 subpaquetes: [
 
                     {
@@ -7837,7 +7916,7 @@ var itemsPaquetes = [
                     },
                     {
                         nombre: 'Universal Premiere 2',
-                        imagen: 'assets/icon_universalpremiere_sd.png',
+                        imagen: 'assets/icon-sinfoto.png',
                         nuevo: false,
                         canales: [
                             {
@@ -7848,7 +7927,7 @@ var itemsPaquetes = [
                     },
                     {
                         nombre: 'Universal Crime 2',
-                        imagen: 'assets/icon_universalcrime_sd.png',
+                        imagen: 'assets/icon-sinfoto.png',
                         nuevo: false,
                         canales: [
                             {
@@ -7869,7 +7948,7 @@ var itemsPaquetes = [
                         ]
                     },
                     {
-                        nombre: 'Universal Premier HD',
+                        nombre: 'Universal Premiere HD',
                         imagen: 'assets/icon_universalpremierehd_hd.png',
                         nuevo: false,
                         canales: [
@@ -7880,8 +7959,8 @@ var itemsPaquetes = [
                         ]
                     },
                     {
-                        nombre: 'Universal Premier 2 HD',
-                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nombre: 'Universal Premiere 2 HD',
+                        imagen: 'assets/icon-sinfoto.png',
                         nuevo: false,
                         canales: [
                             {
@@ -7925,7 +8004,7 @@ var itemsPaquetes = [
                     },
                     {
                         nombre: 'Universal Crime 2 HD',
-                        imagen: 'assets/icon_universalcrimehd_hd.png',
+                        imagen: 'assets/icon-sinfoto.png',
                         nuevo: false,
                         canales: [
                             {
@@ -8172,7 +8251,7 @@ var itemsPaquetes = [
                 ]
             },
             {
-                nombre: 'Canal NHK HD',
+                nombre: 'Canal NHK',
                 subpaquetes: [
                     {
                         nombre: 'NHK Premium',
