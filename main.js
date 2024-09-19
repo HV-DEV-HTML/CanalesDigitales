@@ -1175,11 +1175,11 @@ var itemsCanales = [
                     {
                         nombre: 'Deportes',
                         tipo: 'SD',
-                        canales: '#3'
+                        canales: '#3, #60'
                     }
                 ],
                 canalAvanzado: "3",
-                canalSuperior: "3",
+                canalSuperior: "60",
             }
         ],
     },
