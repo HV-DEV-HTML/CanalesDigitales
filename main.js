@@ -288,7 +288,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Locales',
-                        tipo: 'SD',
+                        tipo: 'HD',
                         canales: '#14'
                     }
                 ],
@@ -509,7 +509,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "509",
-                canalSuperior: "-",
+                canalSuperior: "509",
             }
         ],
     },
@@ -970,7 +970,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Locales',
-                        tipo: 'HD',
+                        tipo: 'SD',
                         canales: '#21'
                     }
                 ],
@@ -1043,7 +1043,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "250",
-                canalSuperior: "-",
+                canalSuperior: "250",
             }
         ],
     },
@@ -5604,7 +5604,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "30",
-                canalSuperior: "-",
+                canalSuperior: "30",
             }
         ],
     },
@@ -8620,7 +8620,7 @@ document.addEventListener("click", function (e) {
                 // Ejemplo (suponiendo que tienes un contenedor para estos datos en el popup):
                 document.querySelector('section.popupInfo .canalNombre').textContent = canalEncontrado.nombre;
                 document.querySelector('section.popupInfo .tipoServicio').textContent = servicioEncontrado.nombre;
-                document.querySelector('section.popupInfo .canalImagen').src = canalEncontrado.imagen;
+                document.querySelector('section.popupInfo .canalImagen').src = servicioEncontrado.imagen;
                 /*document.querySelector('section.popupInfo .canalImagen').src = canalEncontrado.imagen || 'ruta/imagen/por_defecto.jpg';*/
 
                 // Limpiar el contenido anterior de la tabla
