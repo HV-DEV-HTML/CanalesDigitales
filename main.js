@@ -7537,23 +7537,12 @@ var itemsPaquetes = [
                 subpaquetes: [
                     {
                         nombre: 'L1 MAX',
-                        imagen: 'assets/icon_l1max_sd.png',
-                        nuevo: true,
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            }
-                        ]
-                    },
-                    {
-                        nombre: 'L1 MAX HD',
                         imagen: 'assets/icon_l1max_hd.png',
                         nuevo: true,
                         canales: [
                             {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#10'
                             }
                         ]
                     }
