@@ -375,7 +375,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Locales',
-                        tipo: 'SD',
+                        tipo: 'HD',
                         canales: '#508'
                     }
                 ],
@@ -644,7 +644,7 @@ var itemsCanales = [
                         canales: '#545'
                     }
                 ],
-                canalAvanzado: "525",
+                canalAvanzado: "545",
                 canalSuperior: "-",
             }
         ],
@@ -677,7 +677,7 @@ var itemsCanales = [
                         canales: '#26, #16'
                     }
                 ],
-                canalAvanzado: "26",
+                canalAvanzado: "26, 16",
                 canalSuperior: "-",
             }
         ],
@@ -730,7 +730,7 @@ var itemsCanales = [
                         canales: '#517'
                     }
                 ],
-                canalAvanzado: "507",
+                canalAvanzado: "517",
                 canalSuperior: "-",
             }
         ],
@@ -836,7 +836,7 @@ var itemsCanales = [
                         canales: '#515'
                     }
                 ],
-                canalAvanzado: "19",
+                canalAvanzado: "515",
                 canalSuperior: "-",
             }
         ],
@@ -988,7 +988,7 @@ var itemsCanales = [
                         canales: '#22'
                     }
                 ],
-                canalAvanzado: "21",
+                canalAvanzado: "22",
                 canalSuperior: "-",
             }
         ],
@@ -1553,7 +1553,7 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Series',
-                        tipo: 'SD',
+                        tipo: 'hd',
                         canales: '#554'
                     }
                 ],
@@ -2383,22 +2383,9 @@ var itemsCanales = [
     },
     {
         id: '81',
-        nombre: 'Cinemax HD',
-        imagen: 'assets/icon_cinemax_hd.png',
+        nombre: 'Cinemax',
+        imagen: 'assets/icon_cinemax_sd.png',
         servicio: [
-            {
-                nombre: 'Claro Tv',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
-                categoria: [
-                    {
-                        nombre: 'Películas',
-                        tipo: 'HD',
-                        canales: '#159'
-                    }
-                ],
-                canalAvanzado: "159",
-                canalSuperior: "159",
-            },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
@@ -2406,10 +2393,10 @@ var itemsCanales = [
                     {
                         nombre: 'Películas',
                         tipo: 'HD',
-                        canales: '#587'
+                        canales: '#152'
                     }
                 ],
-                canalAvanzado: "587",
+                canalAvanzado: "152",
                 canalSuperior: "-",
             }
         ],
@@ -3194,10 +3181,10 @@ var itemsCanales = [
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Superior'],
+                paquete: ['Tv Avanzado', 'Tv Superior'],
                 categoria: [
                     {
-                        nombre: 'Variados',
+                        nombre: 'Factual',
                         tipo: 'SD',
                         canales: '#239'
                     }
@@ -5066,6 +5053,2294 @@ var itemsCanales = [
             }
         ],
     },
+    {
+        id: '168',
+        nombre: 'France 24 - Francés',
+        imagen: 'assets/icon_france24frances_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#215'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "215",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Noticias',
+                        tipo: 'SD',
+                        canales: '#276'
+                    }
+                ],
+                canalAvanzado: "276",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '170',
+        nombre: 'ARIRANG',
+        imagen: 'assets/icon_arirang_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#217'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "217",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#277'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "277",
+            }
+        ],
+    },
+    {
+        id: '171',
+        nombre: 'TELESUR',
+        imagen: 'assets/icon_telesur_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#218'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "218",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#278'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "278",
+            }
+        ],
+    },
+    {
+        id: '172',
+        nombre: 'TELESUR',
+        imagen: 'assets/icon_telesur_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#218'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "218",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#278'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "278",
+            }
+        ],
+    },
+    {
+        id: '173',
+        nombre: 'ANTENA 3',
+        imagen: 'assets/icon_antena3_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#219'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "219",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#279'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "279",
+            }
+        ],
+    },
+    {
+        id: '174',
+        nombre: 'TV GLOBO',
+        imagen: 'assets/icon_tvglobo_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#220'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "220",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Internacionales',
+                        tipo: 'SD',
+                        canales: '#280'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "280",
+            }
+        ],
+    },
+    {
+        id: '175',
+        nombre: 'Discovery Channel HD',
+        imagen: 'assets/icon_discoverychannel_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#70'
+                    }
+                ],
+                canalAvanzado: "70",
+                canalSuperior: "70",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#541'
+                    }
+                ],
+                canalAvanzado: "541",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '176',
+        nombre: 'Animal Planet HD',
+        imagen: 'assets/icon_animalplanet_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#71'
+                    }
+                ],
+                canalAvanzado: "71",
+                canalSuperior: "71",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#543'
+                    }
+                ],
+                canalAvanzado: "543",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '177',
+        nombre: 'Love Nature',
+        imagen: 'assets/icon_lovenature_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#234'
+                    }
+                ],
+                canalAvanzado: "234",
+                canalSuperior: "234",
+            },
+        ],
+    },
+    {
+        id: '178',
+        nombre: 'Love Nature HD',
+        imagen: 'assets/icon_lovenature_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#72'
+                    }
+                ],
+                canalAvanzado: "72",
+                canalSuperior: "72",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#542'
+                    }
+                ],
+                canalAvanzado: "542",
+                canalSuperior: "-",
+            },
+        ],
+    },
+    {
+        id: '179',
+        nombre: 'National Geographic',
+        imagen: 'assets/icon_nationalgeopgraphic_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#73'
+                    }
+                ],
+                canalAvanzado: "73",
+                canalSuperior: "73",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factural',
+                        tipo: 'SD',
+                        canales: '#232'
+                    }
+                ],
+                canalAvanzado: "232",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '179',
+        nombre: 'History',
+        imagen: 'assets/icon_history_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#74'
+                    }
+                ],
+                canalAvanzado: "74",
+                canalSuperior: "74",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#236'
+                    }
+                ],
+                canalAvanzado: "236",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '180',
+        nombre: 'H2',
+        imagen: 'assets/icon_h2_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#75'
+                    }
+                ],
+                canalAvanzado: "75",
+                canalSuperior: "75",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#237'
+                    }
+                ],
+                canalAvanzado: "237",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '181',
+        nombre: 'HGTV',
+        imagen: 'assets/icon_hgtv_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#80'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "80",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#239'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "239",
+            }
+        ],
+    },
+    {
+        id: '182',
+        nombre: 'Discovery Science',
+        imagen: 'assets/icon_discoveryscience_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#81'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "81",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#242'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "242",
+            }
+        ],
+    },
+    {
+        id: '183',
+        nombre: 'HD Theater',
+        imagen: 'assets/icon_hdtheater_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Cultura',
+                        tipo: 'HD',
+                        canales: '#82'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "82",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#540'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "540",
+            }
+        ],
+    },
+    {
+        id: '184',
+        nombre: 'TV Cosmos',
+        imagen: 'assets/icon_tvcosmos_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Regional',
+                        tipo: 'HD',
+                        canales: '#28'
+                    }
+                ],
+                canalAvanzado: "28",
+                canalSuperior: "28",
+            },
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Locales',
+                        tipo: 'SD',
+                        canales: '#30'
+                    }
+                ],
+                canalAvanzado: "30",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '185',
+        nombre: 'América Trujillo',
+        imagen: 'assets/icon_americatrujillo.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Locales',
+                        tipo: 'SD',
+                        canales: '#29'
+                    }
+                ],
+                canalAvanzado: "29",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '186',
+        nombre: 'France 24 HD -Español',
+        imagen: 'assets/icon_france24espanol_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Noticias',
+                        tipo: 'HD',
+                        canales: '#537'
+                    }
+                ],
+                canalAvanzado: "537",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '187',
+        nombre: 'USA HD',
+        imagen: 'assets/icon_usa_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Series',
+                        tipo: 'HD',
+                        canales: '#555'
+                    }
+                ],
+                canalAvanzado: "555",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '188',
+        nombre: 'Comedy Central HD',
+        imagen: 'assets/icon_comedycentralhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Series',
+                        tipo: 'HD',
+                        canales: '#557'
+                    }
+                ],
+                canalAvanzado: "557",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '189',
+        nombre: 'MTV HD',
+        imagen: 'assets/icon_mtvhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Series',
+                        tipo: 'HD',
+                        canales: '#559'
+                    }
+                ],
+                canalAvanzado: "559",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '190',
+        nombre: 'Paramount HD',
+        imagen: 'assets/icon_paramounthd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#589'
+                    }
+                ],
+                canalAvanzado: "589",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '191',
+        nombre: 'TNT HD',
+        imagen: 'assets/icon_tnthd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#590'
+                    }
+                ],
+                canalAvanzado: "590",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '192',
+        nombre: 'TNT HD',
+        imagen: 'assets/Cinecanal HD.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#591'
+                    }
+                ],
+                canalAvanzado: "591",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '193',
+        nombre: 'Golden PLUS HD',
+        imagen: 'assets/icon_goldenplushd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#592'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "592",
+            }
+        ],
+    },
+    {
+        id: '194',
+        nombre: 'AMC HD',
+        imagen: 'assets/icon_amchd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#593'
+                    }
+                ],
+                canalAvanzado: "593",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '195',
+        nombre: 'Space HD',
+        imagen: 'assets/icon_spacehd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#594'
+                    }
+                ],
+                canalAvanzado: "594",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '196',
+        nombre: 'FX HD',
+        imagen: 'assets/icon_fxhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#595'
+                    }
+                ],
+                canalAvanzado: "595",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '196',
+        nombre: 'Sony Movies HD',
+        imagen: 'assets/icon_fxhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#596'
+                    }
+                ],
+                canalAvanzado: "596",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '197',
+        nombre: 'DHE HD',
+        imagen: 'assets/icon_dhehd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#597'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "597",
+            }
+        ],
+    },
+    {
+        id: '198',
+        nombre: 'De Película Plus HD',
+        imagen: 'assets/icon_depleiculaplushd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#798'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "798",
+            }
+        ],
+    },
+    {
+        id: '199',
+        nombre: 'Adrenalina Sports Network',
+        imagen: 'assets/icon_adrenalinasports_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: [],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#77'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "77",
+            }
+        ],
+    },
+    {
+        id: '200',
+        nombre: 'L1 MAX HD',
+        imagen: 'assets/icon_l1maxhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: [],
+                categoria: [
+                    {
+                        nombre: 'Películas',
+                        tipo: 'HD',
+                        canales: '#510, #528'
+                    }
+                ],
+                canalAvanzado: "#510, #528",
+                canalSuperior: "#510, #528",
+            }
+        ],
+    },
+    {
+        id: '201',
+        nombre: 'Claro Sports HD',
+        imagen: 'assets/icon_clarosportshd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#518'
+                    }
+                ],
+                canalAvanzado: "518",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '202',
+        nombre: 'ESPN HD',
+        imagen: 'assets/icon_espnhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#519'
+                    }
+                ],
+                canalAvanzado: "519",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '203',
+        nombre: 'ESPN 2 HD',
+        imagen: 'assets/icon_espn2hd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#520'
+                    }
+                ],
+                canalAvanzado: "520",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '204',
+        nombre: 'ESPN 3 HD',
+        imagen: 'assets/icon_espn3_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#521'
+                    }
+                ],
+                canalAvanzado: "521",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '205',
+        nombre: 'ESPN 4 HD',
+        imagen: 'assets/icon_espn4hd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#522'
+                    }
+                ],
+                canalAvanzado: "-",
+                canalSuperior: "522",
+            }
+        ],
+    },
+    {
+        id: '206',
+        nombre: 'ESPN 5 HD',
+        imagen: 'assets/icon_espn5hd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#523'
+                    }
+                ],
+                canalAvanzado: "523",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '207',
+        nombre: 'ESPN 6 HD',
+        imagen: 'assets/icon_espn6hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#524'
+                    }
+                ],
+                canalAvanzado: "524",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '208',
+        nombre: 'ESPN 7 HD',
+        imagen: 'assets/icon_espn7_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '#525'
+                    }
+                ],
+                canalAvanzado: "525",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '209',
+        nombre: 'L1 HD',
+        imagen: 'assets/icon_l1hd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Deportes',
+                        tipo: 'HD',
+                        canales: '##527'
+                    }
+                ],
+                canalAvanzado: "#527",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '210',
+        nombre: 'Discovery Kids HD',
+        imagen: 'assets/icon_discoverykidshd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Infantiles',
+                        tipo: 'HD',
+                        canales: '#572'
+                    }
+                ],
+                canalAvanzado: "572",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '211',
+        nombre: 'Cartoon Network HD',
+        imagen: 'assets/icon_cartoonnetworkhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Infantiles',
+                        tipo: 'HD',
+                        canales: '#573'
+                    }
+                ],
+                canalAvanzado: "573",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '212',
+        nombre: 'Disney Channel HD',
+        imagen: 'assets/icon_disneychannelhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Infantiles',
+                        tipo: 'HD',
+                        canales: '#574'
+                    }
+                ],
+                canalAvanzado: "574",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '213',
+        nombre: 'Nick Jr HD',
+        imagen: 'assets/icon_nickjrhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Infantiles',
+                        tipo: 'HD',
+                        canales: '#575'
+                    }
+                ],
+                canalAvanzado: "575",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '214',
+        nombre: 'Nickelodeon HD',
+        imagen: 'assets/icon_nickelodeonhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Infantiles',
+                        tipo: 'HD',
+                        canales: '#576'
+                    }
+                ],
+                canalAvanzado: "576",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '215',
+        nombre: 'TeenNick HD',
+        imagen: 'assets/icon_teenickhd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Infantiles',
+                        tipo: 'HD',
+                        canales: '#577'
+                    }
+                ],
+                canalAvanzado: "577",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '181',
+        nombre: 'Discovery Channel',
+        imagen: 'assets/icon_discoverychannel_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#230'
+                    }
+                ],
+                canalAvanzado: "230",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '182',
+        nombre: 'Animal Planet',
+        imagen: 'assets/icon_animalplanet_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#231'
+                    }
+                ],
+                canalAvanzado: "231",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '183',
+        nombre: 'Animal Planet',
+        imagen: 'assets/icon_animalplanet_sd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'SD',
+                        canales: '#231'
+                    }
+                ],
+                canalAvanzado: "231",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '184',
+        nombre: 'History HD',
+        imagen: 'assets/icon_history_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#544'
+                    }
+                ],
+                canalAvanzado: "544",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '185',
+        nombre: 'National Geographic HD',
+        imagen: 'assets/icon_nationalgeographichd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#546'
+                    }
+                ],
+                canalAvanzado: "546",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '186',
+        nombre: 'H2 HD',
+        imagen: 'assets/icon_h2hd_hd.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Factual',
+                        tipo: 'HD',
+                        canales: '#547'
+                    }
+                ],
+                canalAvanzado: "547",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '187',
+        nombre: 'Galaxy 01 - CLÁSICOS INSTRUMENTALES',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#800'
+                    }
+                ],
+                canalAvanzado: "800",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '188',
+        nombre: 'Galaxy 02 - ÓPERA',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#801'
+                    }
+                ],
+                canalAvanzado: "801",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '189',
+        nombre: 'Galaxy 03 - GROOVE LOUNGE',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#802'
+                    }
+                ],
+                canalAvanzado: "802",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '190',
+        nombre: 'Galaxy 04 - JAZZ CLÁSICO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#803'
+                    }
+                ],
+                canalAvanzado: "803",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '191',
+        nombre: 'Galaxy 05 - ROCK ALTERNATIVO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#804'
+                    }
+                ],
+                canalAvanzado: "804",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '192',
+        nombre: 'Galaxy 06 - ÉXITOS DE LOS 90',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#805'
+                    }
+                ],
+                canalAvanzado: "805",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '193',
+        nombre: 'Galaxy 07 - ROCK PESADO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#806'
+                    }
+                ],
+                canalAvanzado: "806",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '194',
+        nombre: 'Galaxy 08 - ÉXITOS DE LOS 70',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#807'
+                    }
+                ],
+                canalAvanzado: "807",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '195',
+        nombre: 'Galaxy 09 - ÉXITOS DE LOS 80',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#808'
+                    }
+                ],
+                canalAvanzado: "808",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '196',
+        nombre: 'Galaxy 10 - ÉXITOS ROMÁNTICOS',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#809'
+                    }
+                ],
+                canalAvanzado: "809",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '197',
+        nombre: 'Galaxy 11 - MÚSICA TROPICAL',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#810'
+                    }
+                ],
+                canalAvanzado: "810",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '198',
+        nombre: 'Galaxy 12 - POP JUVENIL',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#811'
+                    }
+                ],
+                canalAvanzado: "811",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '198',
+        nombre: 'Galaxy 13 - TOP 40 BRASIL',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#812'
+                    }
+                ],
+                canalAvanzado: "812",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '199',
+        nombre: 'Galaxy 14 - ROCK CLÁSICO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#813'
+                    }
+                ],
+                canalAvanzado: "813",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '200',
+        nombre: 'Galaxy 15 - REGGAE',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#814'
+                    }
+                ],
+                canalAvanzado: "814",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '201',
+        nombre: 'Galaxy 16 - ÉXITOS EN INGLÉS',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#815'
+                    }
+                ],
+                canalAvanzado: "815",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '202',
+        nombre: 'Galaxy 17 - DANCE',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#816'
+                    }
+                ],
+                canalAvanzado: "816",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '203',
+        nombre: 'Galaxy 18 - R&B CLÁSICO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#817'
+                    }
+                ],
+                canalAvanzado: "817",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '204',
+        nombre: 'Galaxy 19 - MOVIETRAXX',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#818'
+                    }
+                ],
+                canalAvanzado: "818",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '205',
+        nombre: 'Galaxy 20 - JAZZ LATINO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#819'
+                    }
+                ],
+                canalAvanzado: "819",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '206',
+        nombre: 'Galaxy 21 - ÉXITOS DE LOS 50',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#820'
+                    }
+                ],
+                canalAvanzado: "820",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '207',
+        nombre: 'Galaxy 22 - MÚSICA POPULAR BRASILERA',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#821'
+                    }
+                ],
+                canalAvanzado: "821",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '208',
+        nombre: 'Galaxy 23 - SAMBA & PAGODE',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#822'
+                    }
+                ],
+                canalAvanzado: "822",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '209',
+        nombre: 'Galaxy 24 - ROCK & POP BRASIL',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#823'
+                    }
+                ],
+                canalAvanzado: "823",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '210',
+        nombre: 'Galaxy 25 - NEW AGE',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#824'
+                    }
+                ],
+                canalAvanzado: "824",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '211',
+        nombre: 'Galaxy 26 - ROCK LATINO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#825'
+                    }
+                ],
+                canalAvanzado: "825",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '212',
+        nombre: 'Galaxy 27 - REGIONAL MEXICANA',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#826'
+                    }
+                ],
+                canalAvanzado: "826",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '213',
+        nombre: 'Galaxy 28 - POWER HITS',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#827'
+                    }
+                ],
+                canalAvanzado: "827",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '214',
+        nombre: 'Galaxy 29 - MARIACHI',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#828'
+                    }
+                ],
+                canalAvanzado: "828",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '215',
+        nombre: 'Galaxy 30 - GRANDES ORQUESTAS',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#829'
+                    }
+                ],
+                canalAvanzado: "829",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '216',
+        nombre: 'Galaxy 31 - GRANDES CANTANTES',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#830'
+                    }
+                ],
+                canalAvanzado: "830",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '217',
+        nombre: 'Galaxy 32 - TANGO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#831'
+                    }
+                ],
+                canalAvanzado: "831",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '218',
+        nombre: 'Galaxy 33 - RITMOS DEL MUNDO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#832'
+                    }
+                ],
+                canalAvanzado: "832",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '219',
+        nombre: 'Galaxy 34 - SINFÓNICA',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#833'
+                    }
+                ],
+                canalAvanzado: "833",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '220',
+        nombre: 'Galaxy 35 - ÉXITOS EN ITALIANO',
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#834'
+                    }
+                ],
+                canalAvanzado: "834",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '221',
+        nombre: "Galaxy 36 - CLÁSICOS DEL ROCK 'N' ROLL",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#835'
+                    }
+                ],
+                canalAvanzado: "835",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '222',
+        nombre: "Galaxy 37 - RITMOS DEL CARIBE",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#836'
+                    }
+                ],
+                canalAvanzado: "836",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '223',
+        nombre: "Galaxy 38 - MÚSICA DE LAS AMÉRICAS",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#837'
+                    }
+                ],
+                canalAvanzado: "837",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '224',
+        nombre: "Galaxy 39 - LATIN LOUNGE",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#838'
+                    }
+                ],
+                canalAvanzado: "838",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '225',
+        nombre: "Galaxy 40 - BLUES",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#839'
+                    }
+                ],
+                canalAvanzado: "839",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '226',
+        nombre: "Galaxy 42 - ADULTO CONTEMPORÁNEA",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#841'
+                    }
+                ],
+                canalAvanzado: "841",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '227',
+        nombre: "Galaxy 43 - REGGAETON",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#842'
+                    }
+                ],
+                canalAvanzado: "842",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '228',
+        nombre: "Galaxy 44 - NEW WAVE",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#843'
+                    }
+                ],
+                canalAvanzado: "843",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '229',
+        nombre: "Galaxy 45 - SALSA Y MERENGUE",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#844'
+                    }
+                ],
+                canalAvanzado: "844",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '230',
+        nombre: "Galaxy 46 - DISCO ",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#845'
+                    }
+                ],
+                canalAvanzado: "845",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '231',
+        nombre: "Galaxy 47 - ÉXITOS EN ESPAÑOL",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#846'
+                    }
+                ],
+                canalAvanzado: "846",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '232',
+        nombre: "Galaxy 48 - ÉXITOS EUROPEOS",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#847'
+                    }
+                ],
+                canalAvanzado: "847",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '233',
+        nombre: "Galaxy 49 - PIANO",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#848'
+                    }
+                ],
+                canalAvanzado: "848",
+                canalSuperior: "-",
+            }
+        ],
+    },
+    {
+        id: '234',
+        nombre: "Galaxy 50 - BALADAS EN ESPAÑOL",
+        imagen: 'assets/icon_galaxy_music.png',
+        servicio: [
+            {
+                nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
+                paquete: ['Tv Avanzado', 'Tv Superior'],
+                categoria: [
+                    {
+                        nombre: 'Audio',
+                        tipo: '',
+                        canales: '#849'
+                    }
+                ],
+                canalAvanzado: "849",
+                canalSuperior: "-",
+            }
+        ],
+    },
 ]
 
 const itemsPorPagina = 15;
@@ -5260,26 +7535,20 @@ var itemsPaquetes = [
                 subpaquetes: [
                     {
                         nombre: 'L1 MAX',
-                        imagen: '',
+                        imagen: 'assets/icon_l1max_sd.png',
+                        nuevo: true,
                         canales: [
                             {
                                 tipo: 'SD',
                                 canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'L1 MAX HD',
+                        imagen: 'assets/icon_l1max_hd.png',
+                        nuevo: true,
                         canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
                             {
                                 tipo: 'HD',
                                 canales: '#510'
@@ -5292,184 +7561,415 @@ var itemsPaquetes = [
                 nombre: 'Paquete HBO',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'HBO Xtreme',
+                        imagen: 'assets/icon_hboxtreme_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#176, #74'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'HBO SIGNATURE',
+                        imagen: 'assets/icon_hbosignature_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#175'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'HBO FAMILY',
+                        imagen: 'assets/icon_hbofamily_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#174, #75'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO PLUS',
+                        imagen: 'assets/icon_hboplus_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#173, #72'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO Mundi',
+                        imagen: 'assets/icon_hbomundi_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#172'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO 2',
+                        imagen: 'assets/icon_hbo2_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#171, #73'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO Pop HD',
+                        imagen: 'assets/icon_hbopop_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#316, #608, #1620'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO Xtreme HD',
+                        imagen: 'assets/icon_hboxtreme_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#314, #606, #1614'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO SIGNATURE HD',
+                        imagen: 'assets/icon_hbosignature_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#313, #606, #1612'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO FAMILY HD',
+                        imagen: 'assets/icon_hbofamilyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#312, #604, #1610'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO PLUS HD',
+                        imagen: 'assets/icon_hboplus_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#311, #603, #1606'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO Mundi HD',
+                        imagen: 'assets/icon_hbomundi_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#310, #602'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO 2 HD',
+                        imagen: 'assets/icon_hbo2hd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#309, #601'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO HD',
+                        imagen: 'assets/icon_hbo_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#308, #600, #1602'
+                            }
+                        ]
+                    },
                 ]
             },
             {
                 nombre: 'Golden Premier',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'Golden Premier 1',
+                        imagen: 'assets/icon_goldenpremier1_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#190'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'Golden Premier 2',
+                        imagen: 'assets/icon_goldenpremier2_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#191'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'Golden Premier Este HD',
+                        imagen: 'assets/icon_goldenpremier2_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#650, #1650'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Golden Premier Oeste HD',
+                        imagen: 'assets/icon_goldenpremier2_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#651'
+                            }
+                        ]
+                    },
                 ]
             },
             {
                 nombre: 'Adrenalina Sports Network',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'ADRENALINA SPORTS NETWORK',
+                        imagen: 'assets/icon_adrenalinasports_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#77'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'ADRENALINA SPORTS NETWORK HD',
+                        imagen: 'assets/icon_adrenalinasportsnetwork_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#526'
+                            }
+                        ]
+                    },
                 ]
             },
             {
                 nombre: 'Canal NHK',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'NHK WORLD PREMIUM',
+                        imagen: 'assets/icon_nhkpremium_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#283'
                             }
                         ]
                     },
-                    {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
-                            }
-                        ]
-                    }
                 ]
             },
             {
                 nombre: 'HotPack HD',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'Playboy',
+                        imagen: 'assets/icon_playboy_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#195'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'Venus',
+                        imagen: 'assets/icon_venus_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#196, #290'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'Sexstreem',
+                        imagen: 'assets/icon_sexstreem_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#197'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Playboy HD',
+                        imagen: 'assets/icon_playboyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#706, #1996'
+                            }
+                        ]
+                    },
                 ]
             },
             {
                 nombre: 'Paquete Universal+',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'Universal Premiere',
+                        imagen: 'assets/icon_universalpremiere_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#181, #81'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'Universal Cinema',
+                        imagen: 'assets/icon_universalcinema_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#180'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'Universal Comedy',
+                        imagen: 'assets/icon_universalcomedy_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#185, #82'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime',
+                        imagen: 'assets/icon_universalcrime_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#183'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Reality',
+                        imagen: 'assets/icon_universalreality_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#186'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Premiere HD',
+                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#331, #621'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Cinema HD',
+                        imagen: 'assets/icon_universalcinema_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#330, #620'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Comedy HD',
+                        imagen: 'assets/icon_universalcomedyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#334, #624'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime HD',
+                        imagen: 'assets/icon_universalcrimehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#333, #623'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Reality HD',
+                        imagen: 'assets/icon_universalrealityhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#336'
+                            }
+                        ]
+                    },
                 ]
             },
         ],
@@ -5481,220 +7981,280 @@ var itemsPaquetes = [
         imagen: '',
         paquetes: [
             {
-                nombre: 'Liga 1 MAX',
+                nombre: 'Liga 1 MAX HD',
                 subpaquetes: [
                     {
                         nombre: 'L1 MAX',
-                        imagen: '',
+                        imagen: 'assets/icon_l1maxhd_hd.png',
+                        nuevo: true,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#10'
                             }
                         ]
                     },
-                    {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
-                            }
-                        ]
-                    }
                 ]
             },
             {
                 nombre: 'Paquete Universal+',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'Universal Premiere HD',
+                        imagen: 'assets/icon_universalpremierehd_hd.png',
+                        nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#181'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'Universal Cinema HD',
+                        imagen: 'assets/icon_universalcinema_hd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#180'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'Universal Comedy HD',
+                        imagen: 'assets/icon_universalcomedyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#185'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Crime HD',
+                        imagen: 'assets/icon_universalcrimehd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#183'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Universal Reality HD',
+                        imagen: 'assets/icon_universalrealityhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#186'
+                            }
+                        ]
+                    },
                 ]
             },
             {
                 nombre: 'Paquete HBO',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'HBO Pop HD',
+                        imagen: 'assets/icon_hbopop_hd.png',
+                        nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#316, #608'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'HBO Xtreme HD',
+                        imagen: 'assets/icon_hboxtreme_hd.png',
+                        nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#314, #606'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'HBO SIGNATURE HD',
+                        imagen: 'assets/icon_hbosignature_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#313, #605'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO FAMILY HD',
+                        imagen: 'assets/icon_hbofamilyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#312, #604'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO PLUS HD',
+                        imagen: 'assets/icon_hboplus_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#311, #603'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO Mundi HD',
+                        imagen: 'assets/icon_hbomundi_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#310, #602'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO 2 HD',
+                        imagen: 'assets/icon_hbo2hd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#309, #601'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'HBO HD',
+                        imagen: 'assets/icon_hbo_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#308, #600'
+                            }
+                        ]
+                    },
                 ]
             },
             {
                 nombre: 'Golden Premier',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'Golden Premier 1 HD',
+                        imagen: 'assets/icon_goldenpremier2_hd.png',
+                        nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#650'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'Golden Premier 2 HD',
+                        imagen: 'assets/icon_goldenpremier2_hd.png',
+                        nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
+                                canales: '#651'
                             }
                         ]
-                    }
+                    },
                 ]
             },
             {
                 nombre: 'Adrenalina Sports Network',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'FIGHTING SPORTS NETWORK HD',
+                        imagen: 'assets/icon_adrenalinasportsnetwork_hd.png',
+                        nuevo: false,
                         canales: [
                             {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
                                 tipo: 'HD',
-                                canales: '#510'
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                nombre: 'Canal NHK',
-                subpaquetes: [
-                    {
-                        nombre: 'L1 MAX',
-                        imagen: '',
-                        canales: [
-                            {
-                                tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#526'
                             }
                         ]
                     },
+                ]
+            },
+            {
+                nombre: 'Canal NHK HD',
+                subpaquetes: [
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'NHK WORLD PREMIUM',
+                        imagen: 'assets/icon_nhkpremium_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#170'
                             }
                         ]
-                    }
+                    },
                 ]
             },
             {
                 nombre: 'HotPack HD',
                 subpaquetes: [
                     {
-                        nombre: 'L1 MAX',
-                        imagen: '',
+                        nombre: 'Playboy',
+                        imagen: 'assets/icon_playboy_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#700'
                             }
                         ]
                     },
                     {
-                        nombre: 'L1 MAX 2',
-                        imagen: '',
+                        nombre: 'Venus',
+                        imagen: 'assets/icon_venus_sd.png',
+                        nuevo: false,
                         canales: [
                             {
                                 tipo: 'SD',
-                                canales: '#10, #61'
-                            },
-                            {
-                                tipo: 'HD',
-                                canales: '#510'
+                                canales: '#702'
                             }
                         ]
-                    }
+                    },
+                    {
+                        nombre: 'Sexstreem',
+                        imagen: 'assets/icon_sexstreem_sd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#704'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'Playboy HD',
+                        imagen: 'assets/icon_playboyhd_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#706'
+                            }
+                        ]
+                    },
                 ]
             },
         ],
@@ -5839,16 +8399,18 @@ itemsPaquetes.forEach(function (item) {
             itemCanalDiv.className = 'itemCanal';
 
             // Añade el span con texto "¡NUEVO!"
-            var spanNuevo = document.createElement('span');
-            spanNuevo.className = 'nuevo';
-            spanNuevo.textContent = '¡NUEVO!';
-            itemCanalDiv.appendChild(spanNuevo);
+            if (subpaquete.nuevo === true) {
+                var spanNuevo = document.createElement('span');
+                spanNuevo.className = 'nuevo';
+                spanNuevo.textContent = '¡NUEVO!';
+                itemCanalDiv.appendChild(spanNuevo);
+            }
 
             // Crea `div` para la parte 1 con la imagen
             var part1Div = document.createElement('div');
             part1Div.className = 'part1';
             var img = document.createElement('img');
-            img.src = "assets/icon-l1max.png"; // Imagen del subpaquete
+            img.src = subpaquete.imagen; // Imagen del subpaquete
             img.alt = subpaquete.nombre;
             part1Div.appendChild(img);
             itemCanalDiv.appendChild(part1Div);

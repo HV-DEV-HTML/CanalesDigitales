@@ -694,6 +694,10 @@ section.paquetesPrepium .contentFa.active {
   left: 20px;
   top: -6px;
 }
+.cards .itemCanal .part2 {
+  padding-right: 0px;
+  width: 100%;
+}
 
 section.popupInfo {
   position: fixed;
