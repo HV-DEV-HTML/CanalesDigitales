@@ -5582,7 +5582,6 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
-                imagen: 'assets/icon_tvcosmos_sd.png',
                 categoria: [
                     {
                         nombre: 'Regional',
@@ -5596,6 +5595,7 @@ var itemsCanales = [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
                 paquete: ['Tv Avanzado', 'Tv Superior'],
+                imagen: 'assets/icon_tvcosmos_sd.png',
                 categoria: [
                     {
                         nombre: 'Locales',
