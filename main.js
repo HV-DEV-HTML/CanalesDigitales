@@ -5654,7 +5654,7 @@ var itemsCanales = [
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
+                paquete: ['Tv Superior'],
                 imagen: 'assets/icon_usa_hd.png',
                 categoria: [
                     {
@@ -5663,7 +5663,7 @@ var itemsCanales = [
                         canales: '#555'
                     }
                 ],
-                canalAvanzado: "555",
+                canalAvanzado: "-",
                 canalSuperior: "555",
             }
         ],
