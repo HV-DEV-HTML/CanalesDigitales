@@ -3739,8 +3739,8 @@ var itemsCanales = [
                 categoria: [
                     {
                         nombre: 'Variados',
-                        tipo: 'HD',
-                        canales: '#530'
+                        tipo: 'SD',
+                        canales: '#215'
                     }
                 ],
                 canalAvanzado: "215",
@@ -6215,7 +6215,7 @@ var itemsCanales = [
         servicio: [
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
-                paquete: ['Tv Avanzado', 'Tv Superior'],
+                paquete: ['Tv Superior'],
                 imagen: 'assets/icon_teenickhd_hd.png',
                 categoria: [
                     {
@@ -6224,7 +6224,7 @@ var itemsCanales = [
                         canales: '#577'
                     }
                 ],
-                canalAvanzado: "577",
+                canalAvanzado: "-",
                 canalSuperior: "577",
             }
         ],
