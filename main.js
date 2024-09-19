@@ -519,7 +519,7 @@ var itemsCanales = [
                     }
                 ],
                 canalAvanzado: "11",
-                canalSuperior: "-",
+                canalSuperior: "11",
             },
             {
                 nombre: 'Claro Tv+ (Fibra Óptica/HFC)',
@@ -539,7 +539,7 @@ var itemsCanales = [
     {
         id: '19',
         nombre: 'Global',
-        imagen: 'assets/icon-vivatv.png',
+        imagen: 'assets/icon-Global.png',
         servicio: [
             {
                 nombre: 'Claro Tv',
