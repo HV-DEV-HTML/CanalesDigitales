@@ -7822,7 +7822,18 @@ var itemsPaquetes = [
                         canales: [
                             {
                                 tipo: 'HD',
-                                canales: '#10'
+                                canales: '#10, #60'
+                            }
+                        ]
+                    },
+                    {
+                        nombre: 'L1 MAX HD',
+                        imagen: 'assets/icon_l1maxhd_hd.png',
+                        nuevo: true,
+                        canales: [
+                            {
+                                tipo: 'HD',
+                                canales: '#510, #528'
                             }
                         ]
                     },
@@ -8209,6 +8220,17 @@ var itemsPaquetes = [
             {
                 nombre: 'Adrenalina Sports Network',
                 subpaquetes: [
+                    {
+                        nombre: 'Adrenalina Sports Network',
+                        imagen: 'assets/icon_adrenalinasportsnetwork_hd.png',
+                        nuevo: false,
+                        canales: [
+                            {
+                                tipo: 'SD',
+                                canales: '#77'
+                            }
+                        ]
+                    },
                     {
                         nombre: 'Adrenalina Sports Network HD',
                         imagen: 'assets/icon_adrenalinasportsnetwork_hd.png',
